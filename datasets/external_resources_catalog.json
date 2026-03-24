@@ -1,0 +1,266 @@
+{
+  "catalog_description": "External datasets and code repositories relevant to trace impurities, coulombic efficiency, and SEI formation research",
+  "last_updated": "2026-03-24",
+  "categories": {
+    "battery_cycling_datasets": [
+      {
+        "name": "Severson et al. Battery Cycle Life Dataset",
+        "url": "https://data.matr.io/1/",
+        "github": "https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation",
+        "paper": "Data-driven prediction of battery cycle life before capacity degradation (Nature Energy, 2019)",
+        "description": "124 commercial LFP/graphite cells (A123 APR18650M1A) cycled under fast-charging conditions with cycle lives ranging from 150 to 2300 cycles. Three batches of ~48 cells each.",
+        "format": "MATLAB (.mat) and Python pickle (.pkl)",
+        "size": "~3 batches, 124 cells total",
+        "relevance": "Provides high-quality cycling data with CE measurements across diverse fast-charging protocols. Can be used to study how cycling conditions affect CE trends and degradation patterns.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "NASA Li-ion Battery Aging Datasets",
+        "url": "https://data.nasa.gov/dataset/li-ion-battery-aging-datasets",
+        "alt_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+        "kaggle": "https://www.kaggle.com/datasets/patrickfleith/nasa-battery-dataset",
+        "description": "Li-ion batteries run through charge, discharge, and EIS profiles at different temperatures. Discharged at different current loads until preset voltage thresholds. Experiments stopped at 30% capacity fade (2 Ah to 1.4 Ah).",
+        "format": "MATLAB (.mat)",
+        "relevance": "Includes EIS data alongside cycling data, useful for correlating impedance changes (SEI growth signature) with capacity fade patterns.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "CALCE Battery Data Repository",
+        "url": "https://calce.umd.edu/battery-data",
+        "alt_url": "https://calce.umd.edu/data",
+        "description": "Multiple chemistries (LCO, LFP, NMC) in cylindrical, pouch, and prismatic form factors. Includes continuous full/partial cycling, storage, dynamic driving profiles, OCV measurements, and impedance measurements.",
+        "format": "Excel (.xls/.xlsx) and text (.txt)",
+        "relevance": "Multi-chemistry dataset allows cross-chemistry comparison of CE behavior. Impedance data can reveal SEI evolution patterns.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Oxford Battery Degradation Dataset 1",
+        "url": "https://ora.ox.ac.uk/objects/uuid:03ba4b01-cfed-46d3-9b1a-7d4a7bdf6fac",
+        "description": "Battery degradation data with characterisation tests taken every 100 cycles until cell end-of-life.",
+        "format": "MATLAB (.mat), 262 MB",
+        "relevance": "Regular characterization intervals allow tracking of degradation mechanisms over battery lifetime.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "KIT Comprehensive Battery Aging Dataset (Luh & Blank)",
+        "url": "https://radar.kit.edu/radar/en/dataset/zYYmSEIWMwoELRCK",
+        "paper_doi": "10.1038/s41597-024-03831-x",
+        "description": "Over 3 billion data points from 228 commercial NMC/C+SiO cells aged ~600 days under wide-ranging conditions. Includes coulomb and energy efficiency, capacity fade, and impedance measurements.",
+        "format": "Downloadable with Python analysis code",
+        "size": "228 cells, 3+ billion data points",
+        "relevance": "Largest publicly available aging dataset. Coulombic and energy efficiency data directly applicable. NMC/C-SiO chemistry relevant to modern battery systems.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "BatteryArchive.org",
+        "url": "https://www.batteryarchive.org/",
+        "github": "https://github.com/BikingJesus/batteryarchive",
+        "description": "Public repository aggregating battery aging data from multiple institutions. Allows online visualization and comparison.",
+        "format": "CSV (time series and cycle files)",
+        "relevance": "Aggregated cross-institutional data enables broad comparisons of CE and degradation patterns across chemistries and conditions.",
+        "freely_downloadable": true,
+        "notes": "Complete CSV files may require email request to info@batteryarchive.org"
+      },
+      {
+        "name": "Iontech Open-Source Battery Monitoring Dataset",
+        "url": "https://github.com/shiyunliu-battery/Iontech",
+        "description": "76 LiR2032 Li-ion coin cells (LCO/Gr) with CE and degradation under fast-charging (1.5C-3.5C). SOC-sweep tests at four SOH levels (100%, 90%, 80%, 70%).",
+        "format": "GitHub repository",
+        "relevance": "Explicitly quantifies CE variation with SOC, C-rate, and aging state - directly relevant to understanding CE sensitivity to cell conditions.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Mendeley Battery Degradation Datasets",
+        "url": "https://data.mendeley.com/datasets/v8k6bsr6tf/1",
+        "description": "Two types of Li-ion batteries: PANASONIC NCR18650BD (3.03 Ah, 3 cells) and GOTION IFP20100140A (27 Ah, 3 cells).",
+        "format": "Downloadable from Mendeley Data",
+        "relevance": "Comparison across different cell formats and chemistries.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "BatteryML Platform (Microsoft)",
+        "url": "https://github.com/microsoft/BatteryML",
+        "paper": "BatteryML: An Open-source platform for Machine Learning on Battery Degradation (ICLR 2024)",
+        "description": "Unified platform for battery data preprocessing, feature extraction, and ML model implementation. Integrates multiple public datasets.",
+        "format": "Python package with data loaders",
+        "relevance": "Provides standardized access to multiple battery datasets with CE as a key metric. Useful as a framework for our ML modeling.",
+        "freely_downloadable": true
+      }
+    ],
+    "electrolyte_datasets": [
+      {
+        "name": "CALiSol-23 (Conductivity Atlas for Lithium Salts and Solvents)",
+        "url": "https://www.nature.com/articles/s41597-024-03575-8",
+        "description": "Curated dataset of experimentally recorded ionic conductivities for various combinations of lithium salts, solvents, concentrations, and temperatures. Derived from exhaustive literature review.",
+        "format": "Published in Nature Scientific Data",
+        "relevance": "Electrolyte transport properties (conductivity) directly affect CE. Can correlate electrolyte composition/properties with impurity sensitivity.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Li/Cu Half-Cell CE Dataset (PNAS 2023)",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2214357120",
+        "description": "150 entries of Li|Cu cell CE with various liquid electrolytes. 147 entries with molar percentages. Features include elemental compositions. Key finding: solvent oxygen ratio (sO) is most important feature for CE.",
+        "format": "Supplementary data in paper",
+        "size": "150 entries",
+        "relevance": "Directly maps electrolyte composition to CE. The sO feature insight could guide understanding of how impurities affect CE.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "F-GCN Battery Electrolyte Dataset (Figshare)",
+        "url": "https://figshare.com/articles/dataset/Formulation_Graphs_for_Mapping_Structure-Composition_of_Battery_Electrolytes_to_Device_Performance/24545935",
+        "paper": "https://pubs.acs.org/doi/10.1021/acs.jcim.3c01030",
+        "description": "Two datasets: (1) Li/Cu half-cell formulations with CE values from literature, (2) Li-I full-cell dataset with 125 experimentally obtained entries. CE transformed to logarithmic format (LCE) for modeling.",
+        "format": "Figshare dataset",
+        "relevance": "Directly connects electrolyte formulation structure to CE performance. The graph-based representation could be extended to model impurity effects.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "LNMO High-Voltage Electrolyte Dataset",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829725003101",
+        "description": "100+ electrolyte formulations for Li||LiNi0.5Mn1.5O4 (LNMO) cells using LiPF6 salt. Focused on high-voltage applications.",
+        "format": "Paper supplementary data",
+        "relevance": "High-voltage systems are particularly sensitive to impurities. LNMO data could reveal impurity effects at elevated potentials.",
+        "freely_downloadable": "Requires journal access"
+      },
+      {
+        "name": "High-Throughput Electrolyte Additive Screening (2019)",
+        "url": "https://www.nature.com/articles/s41598-019-42766-x",
+        "description": "2002 samples screened using combinatorial HTS (400 samples/day). Identified 5-additive combination that drastically improved CE of lithium metal electrode.",
+        "format": "Paper supplementary data",
+        "relevance": "High-throughput CE screening methodology directly applicable. Additive combinations can be viewed as controlled 'impurity' additions.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "AHTech High-Throughput Platform Data (Science Advances 2025)",
+        "url": "https://www.science.org/doi/10.1126/sciadv.adu4391",
+        "description": "Automated platform screening 180 small molecules as electrolyte additives for aqueous zinc metal batteries. CE data used for ML model training.",
+        "format": "Paper supplementary data",
+        "relevance": "Demonstrates high-throughput CE measurement methodology. ML pipeline for additive/impurity effect prediction.",
+        "freely_downloadable": true
+      }
+    ],
+    "impurity_specific_data": [
+      {
+        "name": "Baakes et al. - Electrolyte Impurities and SEI Composition Data",
+        "url": "https://doi.org/10.35097/1804",
+        "paper": "https://pubs.rsc.org/en/content/articlelanding/2023/sc/d3sc04186g",
+        "paper_title": "Impact of electrolyte impurities and SEI composition on battery safety",
+        "description": "Detailed degradation reaction network studying impact of chemical species and impurities on thermal runaway. Focus on water impurities and SEI properties. Source data publicly available in KITopen repository.",
+        "format": "KITopen repository data",
+        "relevance": "DIRECTLY relevant - studies trace impurities (especially water) effect on SEI composition and battery safety. Core dataset for our research.",
+        "freely_downloadable": true
+      }
+    ],
+    "code_repositories": [
+      {
+        "name": "PyBaMM (Python Battery Mathematical Modelling)",
+        "url": "https://github.com/pybamm-team/PyBaMM",
+        "docs": "https://openresearchsoftware.metajnl.com/articles/10.5334/jors.309",
+        "description": "Open-source battery simulation package. Includes DFN, SPM, SPMe models. Built-in SEI formation submodels (reaction-limited, solvent-diffusion-limited). Solves DFN in <0.1s. Supports NCA, NMC, LiCoO2 parameter sets. NumFOCUS fiscally sponsored.",
+        "language": "Python",
+        "install": "conda install -c conda-forge pybamm",
+        "relevance": "PRIMARY simulation tool. SEI models can be extended to incorporate impurity effects. Can simulate CE under various conditions with modified SEI kinetics.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Dragonfly (Bayesian Optimization)",
+        "url": "https://github.com/dragonfly/dragonfly",
+        "paper": "https://www.nature.com/articles/s41467-022-32938-1",
+        "description": "Open-source Bayesian optimization package used for autonomous electrolyte discovery. Used with robotic platform 'Clio' for automated electrolyte conductivity optimization. Management layer for inventory, chemical conversions, and grid creation included.",
+        "language": "Python",
+        "relevance": "Can be used for Bayesian optimization of electrolyte formulations while accounting for impurity effects. The Clio integration code shows how to couple optimization with experimental platforms.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "BLAST-Lite (NREL Battery Lifetime Analysis)",
+        "url": "https://github.com/NREL/BLAST-Lite",
+        "description": "Library of battery lifetime and degradation models for commercial Li-ion batteries. Models identified from public lab-based aging data.",
+        "language": "Python and MATLAB",
+        "relevance": "Degradation models can serve as baselines. Useful for comparing impurity-affected degradation against standard models.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "BattDeg",
+        "url": "https://github.com/chintanp/BattDeg",
+        "description": "Python package for predicting Li-ion battery degradation using few cycles. Uses seq2seq LSTM model trained on CALCE data.",
+        "language": "Python (Keras)",
+        "relevance": "Data-driven degradation prediction from early cycles. Could be adapted to detect impurity signatures in early-cycle CE data.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "LiBattDeg (P2D SEI Growth Model)",
+        "url": "https://github.com/jerrychens/LiBattDeg",
+        "description": "Dataset and model for Li-ion battery degradation due to SEI growth using Porous Electrode Pseudo 2-dimensional (P2D) model.",
+        "language": "Python",
+        "relevance": "P2D model with explicit SEI growth - can be modified to include impurity-catalyzed or impurity-inhibited SEI reactions.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Data-driven Battery Cycle Life Prediction (Braatz Group)",
+        "url": "https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation",
+        "description": "Code for Nature Energy manuscript. Data processing code is public; modeling code requires academic license from MIT.",
+        "language": "Python/MATLAB",
+        "relevance": "Feature engineering approach for early-life prediction could be adapted to extract impurity-sensitive features from cycling data.",
+        "freely_downloadable": "Partially (data processing code is public, modeling code requires license)"
+      },
+      {
+        "name": "BattSimPy",
+        "url": "https://github.com/matthewpklein/battsimpy",
+        "description": "Python package for simulating Li-ion battery performance. Equivalent circuit, Single-Particle, and full Pseudo-2D models.",
+        "language": "Python",
+        "relevance": "Multi-fidelity simulation options. P2D model useful for studying impurity effects on electrode-level transport.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "liionpack (PyBaMM extension)",
+        "url": "https://github.com/pybamm-team/liionpack",
+        "description": "Battery pack simulation tool built on PyBaMM framework. Enables pack-level simulations.",
+        "language": "Python",
+        "relevance": "Can study how cell-to-cell impurity variations propagate to pack-level performance differences.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "ActiveLearning-LiBattery",
+        "url": "https://github.com/Debojyoti91/ActiveLearning-LiBattery",
+        "description": "Predicting Li-ion battery properties using GNNs, SHAP analysis, and active learning. Uses PyTorch and torch-geometric.",
+        "language": "Python (PyTorch)",
+        "relevance": "GNN + active learning approach applicable to our formulation-to-CE prediction task. SHAP analysis can identify which molecular features (including impurity signatures) drive CE changes.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "PINN4SOH (Physics-Informed Neural Network)",
+        "url": "https://github.com/wang-fujin/PINN4SOH",
+        "description": "Physics-informed neural network for battery degradation modeling and prognosis.",
+        "language": "Python",
+        "relevance": "Physics-informed approach can encode known impurity-SEI chemistry as constraints while learning unknown relationships from data.",
+        "freely_downloadable": true
+      },
+      {
+        "name": "Battery-Degradation-Neural-Network-Codes-Datasets",
+        "url": "https://github.com/rpglab/Battery-Degradation-Neural-Network-Codes-Datasets",
+        "description": "Dataset and Python code for training battery degradation neural network models. CC BY 4.0 license.",
+        "language": "Python",
+        "relevance": "Ready-to-use neural network degradation models with training data included.",
+        "freely_downloadable": true
+      }
+    ],
+    "data_platforms_and_initiatives": [
+      {
+        "name": "Battery Data Genome Project",
+        "url": "https://arxiv.org/abs/2109.07278",
+        "paper": "https://www.sciencedirect.com/science/article/pii/S2542435122004093",
+        "description": "International consortium led by Argonne and Idaho National Labs proposing standardized data acquisition and sharing practices. Aims to collect data across all battery lifecycle stages. Open standards with flexible sharing practices.",
+        "relevance": "Future data source as it matures. Standardized data formats will facilitate cross-study comparisons of impurity effects.",
+        "status": "Active initiative, data hubs under development",
+        "freely_downloadable": "Standards are open; data availability varies by contributor"
+      },
+      {
+        "name": "Open-Source Battery Data Awesome List",
+        "url": "https://github.com/lappemic/open-source-battery-data",
+        "description": "Curated list of all available open-source battery datasets.",
+        "relevance": "Meta-resource for discovering additional datasets as they become available.",
+        "freely_downloadable": true
+      }
+    ]
+  }
+}

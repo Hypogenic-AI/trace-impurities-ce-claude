@@ -1,0 +1,86 @@
+\section{Methodology}
+\label{sec:method}
+
+We employ a three-pronged computational approach: (1) physics-based battery simulation to model impurity effects on CE, (2) analysis of published SEI composition data to ground our findings in experiment, and (3) dose-response modeling to predict optimal impurity concentrations. We describe each component below.
+
+\subsection{Physics-Based Simulation}
+\label{sec:simulation}
+
+\para{Battery model.}
+We use the Single Particle Model with electrolyte (SPMe) implemented in \pybamm v26.3.0~\citep{pybamm2020} with the SEI growth submodel. The SPMe captures solid-phase diffusion, electrolyte transport, and electrochemical kinetics while remaining computationally efficient. We adopt the Chen 2020 parameterization for an NMC/graphite pouch cell~\citep{chen2020parameterization}, which provides experimentally validated values for all geometric, transport, and kinetic parameters.
+
+\para{Impurity parameterization.}
+We model impurity effects by modifying three key SEI parameters, guided by the physical mechanisms reported in the literature:
+
+\begin{itemize}[leftmargin=*,itemsep=2pt,topsep=2pt]
+    \item \textbf{SEI kinetic rate constant} ($k_\text{SEI}$): Controls the rate of SEI-forming side reactions. Catalytic impurities (e.g., Fe) increase this parameter.
+    \item \textbf{SEI resistivity} ($\rho_\text{SEI}$): Determines the ionic resistance through the SEI layer. Compact inorganic SEI (promoted by Mg and O$_2$ species) reduces this parameter.
+    \item \textbf{Exchange current density} ($j_0$): Governs the main electrochemical reaction rate. Impurities can enhance or inhibit lithium intercalation kinetics.
+\end{itemize}
+
+\Tabref{tab:parameterization} summarizes the literature-based parameterization for each impurity type. We apply multiplicative scaling factors relative to the baseline (ultra-pure) parameters, with scaling magnitude proportional to impurity concentration.
+
+\begin{table}[t]
+    \centering
+    \caption{Impurity parameterization for \pybamm simulations. Arrows indicate direction of parameter modification relative to the ultra-pure baseline. Scaling magnitudes are derived from experimental observations in \citet{choe2024reevaluation}, \citet{fink2021metallic}, and \citet{baakes2023impact}.}
+    \begin{tabular}{@{}lccc@{}}
+        \toprule
+        Impurity & $k_\text{SEI}$ & $\rho_\text{SEI}$ & $j_0$ \\
+        \midrule
+        Mg      & $\uparrow$ (slight) & $\downarrow$ & $\uparrow$ (slight) \\
+        H$_2$O  & $\uparrow$ & $\downarrow$ then $\uparrow$ & $\downarrow$ \\
+        Fe      & $\uparrow\uparrow$ & $\uparrow$ & $\downarrow$ \\
+        O$_2$ species & $\uparrow$ (slight) & $\downarrow$ & $\approx$ \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:parameterization}
+\end{table}
+
+\para{Cycling protocol.}
+All simulations follow the same protocol: constant-current constant-voltage (CC-CV) charge at 1C to 4.2~V with a C/50 cutoff, followed by constant-current discharge at 1C to 2.5~V, with 5-minute rest periods between half-cycles. We simulate 100 cycles per scenario (50 cycles for fine-grained dose sweeps in Experiment~3). Formation cycles (1--9) are excluded from analysis to focus on steady-state behavior.
+
+\para{Scenarios.}
+We simulate 13 scenarios in Experiment~1: one ultra-pure baseline and four impurity types at three concentrations each (50, 200, and 1{,}000~\ppm). In Experiment~3, we extend to finer concentration sweeps using combined simulation and literature data.
+
+\subsection{SEI Composition Analysis}
+\label{sec:sei_analysis}
+
+We analyze the publicly available Baakes et al.\ KITopen dataset (DOI:10.35097/1804), which contains thermal abuse modeling data for seven SEI conditions (organic SEI, wet electrode, thin SEI, dry electrode, reference, inorganic SEI, and thick SEI) with $>10{,}000$ time points each. We extract self-heating onset temperatures and time-to-runaway for each condition, and track species evolution (LiF, Li$_2$CO$_3$, LEDC, LiOH, H$_2$O, PF$_5$) during thermal abuse. This analysis connects SEI composition to stability and validates that impurities promoting inorganic SEI improve both CE and safety.
+
+\subsection{Dose-Response Modeling}
+\label{sec:dose_response}
+
+We fit two mechanistic dose-response models to the combined simulation and literature data:
+
+\para{Hormesis model.}
+For impurities exhibiting beneficial-then-detrimental behavior (Mg, O$_2$ species), we use:
+\begin{equation}
+    \text{CE}(c) = \text{CE}_\text{base} + A \cdot c \cdot \exp\left(-c / c_\text{opt}\right),
+    \label{eq:hormesis}
+\end{equation}
+where $c$ is impurity concentration, $A$ controls the effect magnitude, and $c_\text{opt}$ is the concentration at peak benefit.
+
+\para{Monotonic detrimental model.}
+For universally harmful impurities (H$_2$O, Fe), we use:
+\begin{equation}
+    \text{CE}(c) = \text{CE}_\text{base} - k \cdot \left(c / 1000\right)^n,
+    \label{eq:monotonic}
+\end{equation}
+where $k$ and $n$ are fitted parameters controlling the rate and shape of degradation. Model parameters are fitted using nonlinear least squares (SciPy v1.17.1).
+
+\subsection{Evaluation Metrics}
+\label{sec:metrics}
+
+We evaluate impurity effects using four metrics:
+
+\begin{itemize}[leftmargin=*,itemsep=2pt,topsep=2pt]
+    \item \textbf{Mean CE}: Average $Q_\text{discharge}/Q_\text{charge} \times 100\%$ over cycles 10--100.
+    \item \textbf{CE stability} ($\sigma_\text{CE}$): Standard deviation of CE over cycles 10--100.
+    \item \textbf{Capacity retention}: $Q_\text{cycle\,100} / Q_\text{cycle\,10} \times 100\%$.
+    \item \textbf{SEI-related Li loss}: Total lithium consumed by SEI side reactions.
+\end{itemize}
+
+\subsection{Statistical Analysis}
+\label{sec:stats}
+
+We apply Welch's $t$-tests for pairwise comparisons between each impurity scenario and the baseline, with significance at $\alpha=0.05$. We use one-way ANOVA to test for differences across impurity types. Pearson correlation quantifies the relationship between SEI resistivity and capacity retention. All tests use SciPy v1.17.1.

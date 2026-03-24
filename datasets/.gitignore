@@ -1,0 +1,37 @@
+# Exclude large data files
+*.h5
+*.hdf5
+*.mat
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.feather
+*.parquet
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.bz2
+*.xz
+*.7z
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.sqlite
+*.db
+
+# Exclude cloned git repos (large)
+severson2019_cycle_life/
+open_battery_data_list/
+
+# Exclude extracted data directories
+baakes_kitopen/10.35097-1804/
+
+# Keep documentation and metadata
+!README.md
+!*.gitignore
+!**/README.md
+!**/readme.txt

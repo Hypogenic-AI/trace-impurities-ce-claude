@@ -1,0 +1,35 @@
+{
+  "Mg": {
+    "model": "hormesis",
+    "params": {
+      "CE_base": 99.19737113076188,
+      "A": 8.345225160547681e-05,
+      "c_opt": 11646.464500169572
+    },
+    "r_squared": 0.4834968755183222,
+    "optimal_conc_ppm": 11646.588658865887,
+    "optimal_CE_pct": 99.55492187312848
+  },
+  "Water": {
+    "model": "monotonic_detrimental",
+    "params": {
+      "CE_base": 99.54661880649412,
+      "k": 1.357795832574626,
+      "n": 1.4711874812103645
+    },
+    "r_squared": 0.991971179470856,
+    "optimal_conc_ppm": 0.0,
+    "optimal_CE_pct": 99.54661880649412
+  },
+  "O\u2082 species": {
+    "model": "hormesis",
+    "params": {
+      "CE_base": 92.00000000000006,
+      "A": 0.051639777949429436,
+      "c_opt": 391.52303779424744
+    },
+    "r_squared": 1.0,
+    "optimal_conc_ppm": 391.5391539153915,
+    "optimal_CE_pct": 99.43784640171566
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "thermal_stability": [
+    {
+      "Cases": "Wet electrode",
+      "Self-heating temperature / \u00b0C": 108.059786060154,
+      "Time until thermal runaway / h": 19.1583240533967
+    },
+    {
+      "Cases": "Organic SEI",
+      "Self-heating temperature / \u00b0C": 98.2921162305678,
+      "Time until thermal runaway / h": 17.6196639225006
+    },
+    {
+      "Cases": "Thin SEI",
+      "Self-heating temperature / \u00b0C": 108.059785928944,
+      "Time until thermal runaway / h": 15.3710965015356
+    },
+    {
+      "Cases": "Dry electode",
+      "Self-heating temperature / \u00b0C": 118.889747706625,
+      "Time until thermal runaway / h": 13.4695723619948
+    },
+    {
+      "Cases": "Reference",
+      "Self-heating temperature / \u00b0C": 119.050973970707,
+      "Time until thermal runaway / h": 13.2263486274137
+    },
+    {
+      "Cases": "Inorganic SEI",
+      "Self-heating temperature / \u00b0C": 127.524842119737,
+      "Time until thermal runaway / h": 10.8922401858933
+    },
+    {
+      "Cases": "Thick SEI",
+      "Self-heating temperature / \u00b0C": 129.041362639908,
+      "Time until thermal runaway / h": 9.75794379292237
+    }
+  ],
+  "species_changes": {
+    "LiF": {
+      "initial": 0.8958127882013665,
+      "final": 2.3573592357647244
+    },
+    "Li\u2082CO\u2083": {
+      "initial": 0.822907259694032,
+      "final": 1.770794801531979
+    },
+    "LEDC": {
+      "initial": 0.3083907680256174,
+      "final": 3.7261800005208835e-05
+    },
+    "LiOH": {
+      "initial": 0.031007568615033204,
+      "final": 2.113611725113381e-06
+    },
+    "H\u2082O": {
+      "initial": 0.01914777865743636,
+      "final": 0.03907378461969707
+    },
+    "PF\u2085": {
+      "initial": 0.01049242676734506,
+      "final": 0.2098218420014095
+    },
+    "POF\u2083": {
+      "initial": 0.0007116486702620368,
+      "final": 0.0007146669554451407
+    }
+  },
+  "key_finding": "Inorganic SEI (promoted by trace impurities like water, Mg) provides highest thermal stability and delayed runaway"
+}

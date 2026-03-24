@@ -1,0 +1,4 @@
+Impurity,Model,R²,Optimal Conc (ppm),Peak CE (%),Classification
+Mg,hormesis,0.4834968755183222,11646.588658865887,99.55492187312848,Beneficial
+Water,monotonic_detrimental,0.991971179470856,0.0,99.54661880649412,Detrimental
+O₂ species,hormesis,1.0,391.5391539153915,99.43784640171566,Beneficial

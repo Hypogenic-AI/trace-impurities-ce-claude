@@ -1,0 +1,135 @@
+{
+  "anova": {
+    "f_stat": 0.32444243139625983,
+    "p_value": 0.8540826375404291,
+    "significant": false
+  },
+  "correlations": {
+    "resistivity_vs_capacity_retention": {
+      "r": -0.8913281954705434,
+      "p": 4.3043189251068844e-05
+    },
+    "resistivity_vs_CE": {
+      "r": -0.07434724344380655,
+      "p": 0.8092565864566317
+    }
+  },
+  "pairwise_tests": [
+    {
+      "scenario": "Mg (50 ppm)",
+      "mean_CE": 99.99664704752394,
+      "delta_CE": -0.0005411690176799766,
+      "t_stat": -0.7329338528863327,
+      "p_value": 0.4645602945305911,
+      "cohens_d": -0.10925932787097803,
+      "significant": "False"
+    },
+    {
+      "scenario": "Mg (200 ppm)",
+      "mean_CE": 99.99811089748452,
+      "delta_CE": 0.0009226809429065952,
+      "t_stat": 1.2477984601654821,
+      "p_value": 0.21373855755033055,
+      "cohens_d": 0.1860108119461703,
+      "significant": "False"
+    },
+    {
+      "scenario": "Mg (1000 ppm)",
+      "mean_CE": 99.99898505276867,
+      "delta_CE": 0.0017968362270579519,
+      "t_stat": 2.3851028153544247,
+      "p_value": 0.01811564712863409,
+      "cohens_d": 0.3555501352305749,
+      "significant": "True"
+    },
+    {
+      "scenario": "Water (50 ppm)",
+      "mean_CE": 99.99621774864512,
+      "delta_CE": -0.0009704678964936875,
+      "t_stat": -1.1550735476591951,
+      "p_value": 0.24962874663828682,
+      "cohens_d": -0.1721881981026655,
+      "significant": "False"
+    },
+    {
+      "scenario": "Water (200 ppm)",
+      "mean_CE": 99.99764411077068,
+      "delta_CE": 0.000455894229062892,
+      "t_stat": 0.6161882866299784,
+      "p_value": 0.538554722284784,
+      "cohens_d": 0.09185592638958377,
+      "significant": "False"
+    },
+    {
+      "scenario": "Water (1000 ppm)",
+      "mean_CE": 99.9975310971028,
+      "delta_CE": 0.00034288056117759425,
+      "t_stat": 0.38414354395341743,
+      "p_value": 0.7013543626266511,
+      "cohens_d": 0.05726473849079461,
+      "significant": "False"
+    },
+    {
+      "scenario": "Fe (50 ppm)",
+      "mean_CE": 99.996645197409,
+      "delta_CE": -0.0005430191326212253,
+      "t_stat": -0.6832947073708703,
+      "p_value": 0.495302071502743,
+      "cohens_d": -0.10185956095913852,
+      "significant": "False"
+    },
+    {
+      "scenario": "Fe (200 ppm)",
+      "mean_CE": 99.99840500422876,
+      "delta_CE": 0.0012167876871416183,
+      "t_stat": 1.3464560853812133,
+      "p_value": 0.17997248950833786,
+      "cohens_d": 0.2007178223777211,
+      "significant": "False"
+    },
+    {
+      "scenario": "Fe (1000 ppm)",
+      "mean_CE": 99.9974234350294,
+      "delta_CE": 0.00023521848778784715,
+      "t_stat": 0.25317653431208526,
+      "p_value": 0.800448475483493,
+      "cohens_d": 0.037741329404255536,
+      "significant": "False"
+    },
+    {
+      "scenario": "O\u2082 species (50 ppm)",
+      "mean_CE": 99.99707886509265,
+      "delta_CE": -0.00010935144896961901,
+      "t_stat": -0.1294485906734473,
+      "p_value": 0.8971511923381252,
+      "cohens_d": -0.019297056555824896,
+      "significant": "False"
+    },
+    {
+      "scenario": "O\u2082 species (200 ppm)",
+      "mean_CE": 99.99707373968472,
+      "delta_CE": -0.00011447685689347509,
+      "t_stat": -0.15498097235838898,
+      "p_value": 0.8770114176355842,
+      "cohens_d": -0.023103199297026217,
+      "significant": "False"
+    },
+    {
+      "scenario": "O\u2082 species (1000 ppm)",
+      "mean_CE": 99.99811086002596,
+      "delta_CE": 0.0009226434843441211,
+      "t_stat": 1.1474678530610127,
+      "p_value": 0.25272061982692073,
+      "cohens_d": 0.171054408096011,
+      "significant": "False"
+    }
+  ],
+  "key_findings": [
+    "Mg impurity improves capacity retention by up to +0.10% at 1000 ppm",
+    "O\u2082 species improve capacity retention by up to +0.05% at 200 ppm",
+    "Fe impurity degrades capacity retention by -0.33% at 1000 ppm",
+    "Water impurity degrades capacity retention by -0.20% at 1000 ppm",
+    "SEI resistivity strongly predicts capacity retention (r=-0.891, p=0.000043)",
+    "Inorganic SEI (Li\u2082O, LiF-rich) has highest thermal stability onset at 127.5\u00b0C"
+  ]
+}

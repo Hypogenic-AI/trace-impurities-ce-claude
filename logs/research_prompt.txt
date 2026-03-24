@@ -1,0 +1,1055 @@
+================================================================================
+                    RESEARCH TASK SPECIFICATION
+================================================================================
+
+## RESEARCH TITLE
+
+Decoding the Role of Trace Impurities: Systematic Study of Unintentional Dopants on CE Using Ultra-Pure and Deliberately Doped Systems
+
+## RESEARCH DOMAIN
+
+Battery
+
+## HYPOTHESIS / RESEARCH QUESTION
+
+Certain trace elements or compounds, often considered contaminants, may catalyze favorable SEI formation or lithium kinetics, and their controlled introduction could improve Coulombic Efficiency.
+
+
+## BACKGROUND
+
+### User-Provided Instructions and Context:
+
+>>> Even tiny amounts of “dirt” or leftover chemicals in batteries might help or hurt lithium efficiency—let’s test pure materials versus ones with controlled impurities to see if any “happy accidents” can be engineered on purpose.
+ <<<
+
+(Note: Follow any specific instructions above with high priority)
+
+### Relevant Papers:
+
+
+
+================================================================================
+                 RESEARCH METHODOLOGY (UNIVERSAL)
+================================================================================
+
+You are a senior researcher conducting a systematic scientific investigation.
+
+Your goal is to test the hypothesis provided, design appropriate experiments,
+execute them rigorously, analyze results objectively, and document everything
+comprehensively.
+
+This prompt uses meta-prompting techniques and chain-of-thought reasoning to
+guide you through the complete research workflow. Follow each phase carefully.
+
+IMPORTANT: Resources have been pre-gathered for you!
+Check your workspace for:
+- literature_review.md: Synthesized literature review
+- resources.md: Catalog of all available resources
+- papers/: Downloaded research papers
+- datasets/: Downloaded datasets
+- code/: Cloned repositories and baseline code
+
+Use these resources to inform your experimental design.
+
+═══════════════════════════════════════════════════════════════════════════════
+                        RESEARCH METHODOLOGY
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 0: MOTIVATION & NOVELTY ASSESSMENT (CRITICAL - DO NOT SKIP)
+─────────────────────────────────────────────────────────────────────────────
+
+Before ANY experimental work, you MUST establish:
+
+1. WHY This Research Matters
+   - What problem does this solve?
+   - Who benefits from this research?
+   - What's the potential impact?
+
+2. WHAT Makes It Novel
+   - How does this differ from existing work?
+   - What gap in the literature does it fill?
+   - What new insight or method does it contribute?
+
+3. WHY These Experiments
+   - Why are these specific experiments necessary?
+   - What will we learn from each experiment?
+   - How do results connect to the hypothesis?
+
+DELIVERABLE: Add a "Motivation & Novelty" section to planning.md:
+
+## Motivation & Novelty Assessment
+
+### Why This Research Matters
+[2-3 sentences on importance and impact]
+
+### Gap in Existing Work
+[Based on literature_review.md, what's missing?]
+
+### Our Novel Contribution
+[What new thing are we testing/proposing?]
+
+### Experiment Justification
+For each planned experiment:
+- Experiment 1: [Why needed?]
+- Experiment 2: [Why needed?]
+...
+
+DO NOT proceed to implementation until this section is complete.
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 0: IMMEDIATELY BEGIN PHASE 1
+─────────────────────────────────────────────────────────────────────────────
+
+✓ You have established WHY this research matters
+✓ You have identified WHAT makes it novel
+✓ NOW proceed to detailed planning
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 1: PLANNING
+─────────────────────────────────────────────────────────────────────────────
+
+Before writing any code, create a detailed research plan:
+
+1. Review Gathered Resources
+   - READ literature_review.md to understand the research landscape
+   - READ resources.md to see what datasets, papers, and code are available
+   - Review papers/ directory for specific methodological details
+   - Check datasets/ for available data
+   - Examine code/ for baseline implementations you can use or adapt
+
+2. Decompose the Hypothesis
+   - Break down into testable sub-hypotheses
+   - Identify independent and dependent variables
+   - Define success criteria explicitly
+   - Consider alternative explanations
+
+3. Leverage Literature Review
+   - Synthesize key findings from literature_review.md
+   - Identify methodology gaps from prior work
+   - Note relevant techniques and their trade-offs
+   - Extract lessons that inform your approach
+
+4. Experimental Design
+   - Choose appropriate methods and tools (justify your choices)
+   - Use datasets and baselines identified in resources.md
+   - Design control conditions
+   - Plan sample sizes and statistical tests
+   - Identify potential confounds and how to mitigate them
+   - Consider what could go wrong and contingency plans
+
+5. Resource Planning
+   - Verify datasets are accessible and usable (already downloaded in datasets/)
+   - Check code repositories for useful implementations (already cloned in code/)
+   - Estimate computational requirements
+   - Plan data storage strategy
+   - Identify required libraries and tools
+   - Check if constraints are feasible
+
+6. Timeline
+   - Break work into milestones
+   - Allocate time for each phase
+   - Build in buffer for debugging (20-30% of time)
+   - Identify critical path
+
+IMPORTANT: Think step-by-step about each decision. Use chain-of-thought reasoning
+to justify your experimental design choices.
+
+NOTE: Use Jupyter notebooks freely for experiments, analysis, and code execution.
+For documentation, use markdown files (.md) as they're more suitable for reading.
+
+DELIVERABLE: planning.md (or similar markdown document)
+
+Must include:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+## Research Question
+[Restate clearly and specifically]
+
+## Background and Motivation
+[Why is this important? What gap does it fill?]
+
+## Hypothesis Decomposition
+[Break down into testable components]
+
+## Proposed Methodology
+
+### Approach
+[High-level strategy with justification]
+
+### Experimental Steps
+1. Step 1 with rationale
+2. Step 2 with rationale
+...
+
+### Baselines
+[What will you compare against and why?]
+
+### Evaluation Metrics
+[How will you measure success? Why these metrics?]
+
+### Statistical Analysis Plan
+[What statistical tests? What significance level?]
+
+## Expected Outcomes
+[What results would support/refute hypothesis?]
+
+## Timeline and Milestones
+[Estimated time for each phase]
+
+## Potential Challenges
+[What could go wrong? How will you handle it?]
+
+## Success Criteria
+[How will you know if the research succeeded?]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 1: IMMEDIATELY BEGIN PHASE 2
+─────────────────────────────────────────────────────────────────────────────
+
+✓ Review your planning.md to ensure it's complete
+✓ NOW START IMPLEMENTING - Do not wait for user confirmation
+✓ Remember: This is a fully automated research system
+✓ The goal is to complete all phases (1-6) in a single continuous session
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 2: IMPLEMENTATION
+─────────────────────────────────────────────────────────────────────────────
+
+Execute your plan systematically and carefully:
+
+1. Environment Setup
+   ✓ Install required dependencies
+   ✓ Set random seeds for reproducibility
+   ✓ Configure logging
+   ✓ Check GPU availability (run: nvidia-smi --query-gpu=name,memory.total,memory.free --format=csv)
+   ✓ Configure batch sizes based on available GPU memory (8GB→16-32, 16GB→32-64, 24GB+→64-128)
+   ✓ Set up mixed precision training if GPU available (PyTorch: autocast/GradScaler, TF: mixed_float16)
+   ✓ Document environment (Python version, library versions, GPU info)
+
+2. Data Preparation
+   ✓ Load and validate datasets
+   ✓ Perform data quality checks (missing values, outliers, duplicates)
+   ✓ Split data appropriately (document split strategy)
+   ✓ Document preprocessing steps
+   ✓ Save example samples for documentation
+   ✓ Visualize data distributions
+
+3. Implementation (adapt to research type)
+
+   For METHOD papers (proposing new techniques):
+   ✓ Implement baselines first (simpler methods, prior work)
+   ✓ Implement proposed method
+   ✓ Establish performance floor to validate evaluation pipeline
+
+   For BENCHMARK/EVALUATION papers (new datasets or metrics):
+   ✓ Implement evaluation harness
+   ✓ Test on existing models/methods
+   ✓ Validate metric properties (reliability, discriminability)
+   ✓ Compare to existing benchmarks if applicable
+
+   For ANALYSIS papers (understanding phenomena):
+   ✓ Implement measurement/analysis tools
+   ✓ Design controlled experiments or ablations
+   ✓ Test hypotheses systematically
+
+   General best practices:
+   ✓ Write modular, well-commented code
+   ✓ Implement one component at a time
+   ✓ Test each component independently
+   ✓ Log intermediate results
+   ✓ Save checkpoints frequently
+   ✓ Use descriptive variable names
+   ✓ Add assertions to validate assumptions
+
+5. Error Handling
+   ✓ Use try-except blocks for robustness
+   ✓ Log errors with full context
+   ✓ Don't ignore warnings - investigate them
+   ✓ Validate assumptions with assertions
+   ✓ Handle edge cases gracefully
+
+6. Iterative Development
+   ✓ Start small - validate on tiny dataset first
+   ✓ Gradually scale up
+   ✓ Monitor resource usage
+   ✓ Checkpoint before long-running operations
+   ✓ Document deviations from plan
+
+BEST PRACTICES:
+
+✓ DO: Start small and validate incrementally
+✓ DO: Print shapes and statistics frequently
+✓ DO: Visualize intermediate results
+✓ DO: Save outputs incrementally (don't wait until end)
+✓ DO: Make experiments reproducible (random seeds, versions)
+✓ DO: Comment complex logic immediately
+✓ DO: Separate data processing, modeling, and evaluation
+
+✗ DON'T: Hardcode paths or magic numbers
+✗ DON'T: Skip validation steps
+✗ DON'T: Ignore failed assertions or warnings
+✗ DON'T: Run long experiments without checkpointing
+✗ DON'T: Proceed if results look wrong - investigate first
+
+REPRODUCIBILITY CHECKLIST:
+
+```python
+# Always set random seeds at the start
+import random
+import numpy as np
+
+def set_seed(seed=42):
+    random.seed(seed)
+    np.random.seed(seed)
+    # Add framework-specific seeds (PyTorch, TensorFlow, etc.)
+
+set_seed(42)
+
+# Log environment
+import sys
+print(f"Python: {sys.version}")
+print(f"NumPy: {np.__version__}")
+# Add other relevant library versions
+
+# Save configuration
+config = {
+    'seed': 42,
+    'dataset': 'dataset_name',
+    'hyperparameters': {...},
+    'timestamp': datetime.now().isoformat()
+}
+import json
+with open('results/config.json', 'w') as f:
+    json.dump(config, f, indent=2)
+```
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 2: IMMEDIATELY BEGIN PHASE 3
+─────────────────────────────────────────────────────────────────────────────
+
+✓ Verify your implementation is working
+✓ NOW PROCEED to analysis - continue the automated workflow
+✓ Use your implementation to analyze results and test hypotheses
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 3: ANALYSIS
+─────────────────────────────────────────────────────────────────────────────
+
+Interpret results rigorously using chain-of-thought reasoning:
+
+1. Descriptive Statistics
+   - Compute mean, std, min, max for all metrics
+   - Check for outliers (use box plots, z-scores)
+   - Visualize distributions (histograms, KDE plots)
+   - Look for patterns across different conditions
+
+2. Comparative Analysis
+   - Compare against all baselines
+   - Use appropriate statistical tests (see domain-specific guidance)
+   - Calculate effect sizes (Cohen's d, eta-squared, etc.)
+   - Consider practical significance vs statistical significance
+   - Ask: Is the improvement meaningful in practice?
+
+3. Hypothesis Testing
+   - State null hypothesis (H₀) and alternative hypothesis (H₁)
+   - Choose appropriate statistical test
+   - Check test assumptions (normality, equal variance, independence)
+   - Report p-values AND confidence intervals
+   - Interpret results in context
+   - Correct for multiple comparisons if applicable
+
+4. Error Analysis
+   - Examine failure cases systematically
+   - Look for patterns in errors
+   - Identify edge cases
+   - Consider confounding factors
+   - Create visualizations of error patterns
+
+5. Robustness Checks
+   - Test on out-of-distribution data (if available)
+   - Vary hyperparameters (sensitivity analysis)
+   - Check sensitivity to random seed
+   - Validate assumptions
+   - Test with different data splits
+
+6. Limitations and Threats to Validity
+   - Identify threats to internal validity (confounds)
+   - Identify threats to external validity (generalization)
+   - Note dataset biases
+   - Acknowledge methodological limitations
+   - Suggest improvements
+
+CHAIN-OF-THOUGHT ANALYSIS TEMPLATE:
+
+For each result, ask yourself:
+1. What does this result show?
+2. Does it support or contradict the hypothesis?
+3. What alternative explanations exist?
+4. What additional evidence would strengthen this conclusion?
+5. What are the practical implications?
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 3: IMMEDIATELY BEGIN PHASE 4
+─────────────────────────────────────────────────────────────────────────────
+
+✓ Verify your analysis is complete with statistical tests and visualizations
+✓ NOW PROCEED to documentation - this is the final phase
+✓ Document all your findings, methodology, and results in REPORT.md
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 4: DOCUMENTATION
+─────────────────────────────────────────────────────────────────────────────
+
+Create comprehensive documentation that allows others (and your future self)
+to understand and reproduce your work.
+
+NOTE: Use Jupyter notebooks for running experiments and showing code/output.
+Use markdown files for documentation that will be read (easier to navigate).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DELIVERABLE 1: REPORT.md
+
+This is the primary research report. Include these sections:
+
+## 1. Executive Summary
+- Research question in one sentence
+- Key finding in one sentence
+- Practical implications
+
+## 2. Goal
+- What hypothesis were you testing?
+- Why is this important?
+- What problem does this solve?
+- Expected impact
+
+## 3. Data Construction
+
+### Dataset Description
+- Source and version
+- Size and characteristics
+- Collection methodology
+- Known biases or limitations
+
+### Example Samples
+Show 2-3 representative examples with labels/annotations.
+Use formatted tables or code blocks.
+
+### Data Quality
+- Missing values: X%
+- Outliers: Y instances
+- Class distribution: [if applicable]
+- Data validation checks performed
+
+### Preprocessing Steps
+Document every transformation:
+1. Step 1: Why and how
+2. Step 2: Why and how
+...
+
+### Train/Val/Test Splits
+- Split strategy and rationale
+- Size of each split
+- Stratification (if applicable)
+
+## 4. Experiment Description
+
+### Methodology
+
+#### High-Level Approach
+[Describe your approach and rationale]
+
+#### Why This Method?
+[Justify your methodological choices]
+[What alternatives did you consider and why reject them?]
+
+### Implementation Details
+
+#### Tools and Libraries
+List with versions:
+- Library 1: v1.2.3
+- Library 2: v4.5.6
+
+#### Algorithms/Models
+- Algorithm details
+- Architectural choices
+- Justification for choices
+
+#### Hyperparameters
+Present in table format:
+| Parameter | Value | Selection Method |
+|-----------|-------|------------------|
+| param1    | val1  | grid search      |
+| param2    | val2  | default          |
+
+#### Training Procedure or Analysis Pipeline
+Step-by-step description with justifications
+
+### Experimental Protocol
+
+#### Reproducibility Information
+- Number of runs for averaging: X
+- Random seeds used: [seed1, seed2, seed3]
+- Hardware: [GPU model, CPU, RAM]
+- Execution time: X minutes per run
+
+#### Evaluation Metrics
+For each metric:
+- What it measures
+- Why it's appropriate
+- How it's computed
+- Interpretation guidance
+
+### Raw Results
+
+Present results in multiple formats:
+
+#### Tables
+| Method    | Metric1 | Metric2 | Metric3 |
+|-----------|---------|---------|---------|
+| Baseline  | X±σ     | Y±σ     | Z±σ     |
+| Ours      | X±σ     | Y±σ     | Z±σ     |
+
+#### Visualizations
+- Training curves (if applicable)
+- Comparison plots
+- Distribution plots
+- Error analysis plots
+
+#### Output Locations
+- Results JSON: `results/metrics.json`
+- Plots: `results/plots/`
+- Models: `results/models/`
+
+## 5. Result Analysis
+
+### Key Findings
+State clearly and concisely:
+1. Finding 1 with evidence
+2. Finding 2 with evidence
+...
+
+### Hypothesis Testing Results
+- Do results support or refute hypothesis?
+- Statistical significance: p = X.XXX
+- Effect size: d = X.XX
+- Confidence intervals: [lower, upper]
+- Interpretation: [practical significance]
+
+### Comparison to Baselines
+- Improvement over baseline: X%
+- Is this improvement meaningful?
+- Statistical test results
+- When does our method win/lose?
+
+### Visualizations
+Include plots that illustrate:
+- Main findings
+- Comparisons
+- Error patterns
+- Feature importance (if applicable)
+
+Each plot must have:
+- Clear title
+- Labeled axes with units
+- Legend
+- Caption explaining what to observe
+
+### Surprises and Insights
+- Unexpected results and explanations
+- Interesting patterns discovered
+- Failed approaches and lessons learned
+- What worked differently than expected
+
+### Error Analysis
+- Common failure modes
+- Edge cases
+- Systematic biases
+- Visualizations of errors
+
+### Limitations
+Be honest and thorough:
+- Methodological limitations
+- Dataset limitations
+- Generalizability concerns
+- Assumptions made
+- What could invalidate these results
+
+## 6. Conclusions
+
+### Summary
+Clear answer to research question in 2-3 sentences
+
+### Implications
+- Practical implications
+- Theoretical implications
+- Who should care about this and why
+
+### Confidence in Findings
+- How confident are you in these results?
+- What additional evidence would increase confidence?
+
+## 7. Next Steps
+
+### Immediate Follow-ups
+Experiments to run next:
+1. Follow-up 1 with rationale
+2. Follow-up 2 with rationale
+
+### Alternative Approaches
+Other methods worth trying
+
+### Broader Extensions
+How to extend this work to other domains/problems
+
+### Open Questions
+Unanswered questions raised by this research
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DELIVERABLE 2: Well-commented code and optional CODE_WALKTHROUGH.md
+
+Ensure code is self-documenting with clear comments and docstrings.
+Optionally create CODE_WALKTHROUGH.md with:
+
+## Code Structure Overview
+- Organization of notebook sections
+- What each major section does
+- Data flow diagram (if complex)
+
+## Environment Setup
+```python
+# Required libraries
+import ...
+
+# Configuration
+config = {...}
+```
+
+## Key Functions and Classes
+
+For each important function/class:
+
+### `function_name(args)`
+**Purpose**: What it does
+
+**Arguments**:
+- `arg1`: Description and type
+- `arg2`: Description and type
+
+**Returns**: What it returns
+
+**Design Rationale**: Why implemented this way
+
+**Example Usage**:
+```python
+result = function_name(arg1, arg2)
+```
+
+## Data Pipeline
+
+### Data Loading
+- How data is loaded
+- Validation checks
+- Format conversions
+
+### Preprocessing
+- Transformation steps
+- Normalization/scaling
+- Feature engineering
+
+### Data Flow
+Show how data flows through pipeline:
+Raw Data → Preprocessing → Feature Extraction → Model → Predictions
+
+## Experiment Execution
+
+### How to Run
+Step-by-step instructions:
+1. Set up environment
+2. Load data
+3. Run experiment
+4. View results
+
+### Expected Execution Time
+- On CPU: X minutes
+- On GPU: Y minutes
+
+### Resource Requirements
+- RAM: XGB minimum
+- Disk space: YGB
+- GPU: Optional/Required
+
+## Reproducing Results
+
+### Quick Reproduction
+```bash
+# Commands to reproduce
+python script.py --config config.json
+```
+
+### Verification
+How to verify outputs match expected results
+
+### Troubleshooting
+Common issues and solutions
+
+## Code Quality Notes
+- Design decisions explained
+- Known limitations
+- Potential improvements
+- TODOs (if any)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 4: IMMEDIATELY BEGIN PHASE 5
+─────────────────────────────────────────────────────────────────────────────
+
+✓ Verify REPORT.md and README.md are complete with actual results
+✓ NOW PROCEED to final validation - the last step before completion
+✓ Validate everything is reproducible and scientifically sound
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 5: VALIDATION
+─────────────────────────────────────────────────────────────────────────────
+
+Before considering the work complete, validate everything:
+
+✓ CODE VALIDATION
+  □ All cells run without errors
+  □ Results are reproducible (run code twice, compare outputs)
+  □ Outputs match what documentation claims
+  □ No hardcoded paths that won't work elsewhere
+  □ Random seeds are set
+  □ No data leakage
+
+✓ SCIENTIFIC VALIDATION
+  □ Statistical tests are appropriate for data type
+  □ Assumptions are checked (normality, independence, etc.)
+  □ Conclusions are supported by data
+  □ Limitations are acknowledged
+  □ No obvious confounds ignored
+  □ Alternative explanations considered
+
+✓ DOCUMENTATION VALIDATION
+  □ All required sections present
+  □ Explanations are clear and complete
+  □ Visualizations have labels, legends, and captions
+  □ Code has comments explaining complex logic
+  □ Someone unfamiliar could follow along
+
+✓ OUTPUT VALIDATION
+  □ All expected outputs are generated
+  □ Files are saved in correct locations
+  □ Results are in specified formats
+  □ File paths are documented
+
+If any checkbox is unchecked, address it before finishing.
+
+═══════════════════════════════════════════════════════════════════════════════
+AFTER COMPLETING PHASE 5: RESEARCH SESSION IS COMPLETE
+─────────────────────────────────────────────────────────────────────────────
+
+✓ All phases (1-5) have been completed
+✓ REPORT.md contains actual experimental results
+✓ All validation checks have passed
+✓ The research session is now finished
+
+Congratulations! You have completed a full research cycle from planning through
+validation. The findings are documented and ready for review.
+
+═══════════════════════════════════════════════════════════════════════════════
+                            GENERAL PRINCIPLES
+═══════════════════════════════════════════════════════════════════════════════
+
+1. Scientific Rigor
+   ✓ Objective analysis, even if results don't match expectations
+   ✓ Honest reporting of limitations
+   ✓ Appropriate statistical methods
+   ✓ No p-hacking or cherry-picking
+   ✓ Preregister your analysis plan (in planning phase)
+
+2. Reproducibility
+   ✓ Set random seeds everywhere
+   ✓ Document all parameters
+   ✓ Version dependencies (use requirements.txt or environment.yml)
+   ✓ Save raw outputs (not just processed summaries)
+   ✓ Make code runnable by others
+
+3. Clarity
+   ✓ Write for an intelligent reader unfamiliar with your work
+   ✓ Define terminology and acronyms
+   ✓ Explain reasoning behind decisions
+   ✓ Use visualizations effectively
+   ✓ Structure writing logically
+
+4. Efficiency
+   ✓ Start with smallest viable experiment
+   ✓ Cache expensive computations
+   ✓ Don't repeat unnecessary work
+   ✓ Parallelize when possible
+   ✓ Profile code to find bottlenecks
+
+5. Pragmatism
+   ✓ Focus on answering the research question
+   ✓ Don't over-engineer
+   ✓ Document workarounds honestly
+   ✓ Know when "good enough" is sufficient
+   ✓ But never compromise on correctness
+
+6. Intellectual Honesty
+   ✓ Report negative results
+   ✓ Acknowledge when results are ambiguous
+   ✓ Don't oversell findings
+   ✓ Hedge claims appropriately
+   ✓ Give credit to prior work
+
+═══════════════════════════════════════════════════════════════════════════════
+                          META-COGNITIVE GUIDANCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Throughout the research process, regularly ask yourself:
+
+DURING PLANNING:
+- Have I clearly defined what success looks like?
+- Am I testing the right hypothesis?
+- Are my methods appropriate for my question?
+- What could go wrong?
+
+DURING IMPLEMENTATION:
+- Am I following my plan, or should I deviate? Why?
+- Are the results I'm seeing reasonable?
+- Should I stop and debug, or continue?
+- Am I documenting as I go?
+
+DURING ANALYSIS:
+- Am I being objective?
+- What alternative explanations exist?
+- Am I cherry-picking results?
+- What evidence would change my conclusion?
+
+DURING DOCUMENTATION:
+- Can someone else reproduce this?
+- Have I explained my reasoning?
+- Are my claims supported by evidence?
+- What questions would a reviewer ask?
+
+═══════════════════════════════════════════════════════════════════════════════
+                             ERROR HANDLING
+═══════════════════════════════════════════════════════════════════════════════
+
+If you encounter issues:
+
+1. Data Problems
+   - Document the issue
+   - Investigate root cause
+   - Decide: fix data, adjust method, or document as limitation
+   - Don't ignore or work around silently
+
+2. Implementation Bugs
+   - Add debugging prints
+   - Test components independently
+   - Use assertions to catch errors early
+   - Don't proceed until fixed
+
+3. Unexpected Results
+   - Don't immediately assume error
+   - Investigate thoroughly
+   - Check for common issues (data leakage, bugs, etc.)
+   - Consider if finding is actually interesting
+   - Document in "surprises" section
+
+4. Resource Constraints
+   - If running out of time: prioritize core experiments
+   - If running out of memory: use smaller batch sizes, streaming
+   - If hitting API limits: cache responses, use local models
+   - Document what you couldn't complete
+
+═══════════════════════════════════════════════════════════════════════════════
+
+Remember: Good research is iterative. It's okay to revise your plan based on
+what you learn. But document why you deviated from the original plan.
+
+The goal is not just to get results, but to generate reliable knowledge that
+others can build upon.
+
+═══════════════════════════════════════════════════════════════════════════════
+
+
+================================================================================
+           DOMAIN-SPECIFIC GUIDELINES: BATTERY
+================================================================================
+
+# Battery Research Domain Guidance
+
+This template provides specialized guidance for battery and electrochemical energy storage research, including electrochemical characterization, materials analysis, computational modeling, and data reporting standards.
+
+## Domain Overview
+
+Battery research in this context covers:
+- Lithium-ion batteries: cathode materials (NMC, LFP, NCA), anode materials (graphite, silicon, lithium metal), electrolytes (liquid, solid, polymer)
+- Next-generation systems: solid-state batteries, sodium-ion, lithium-sulfur, lithium-air, zinc-air
+- Supercapacitors: EDLCs, pseudocapacitors, hybrid devices
+- Fuel cells: PEM, solid oxide, alkaline
+- Cross-cutting topics: electrode-electrolyte interfaces, degradation mechanisms, safety, battery management systems
+
+## How to Interpret Base Methodology for Battery Research
+
+The base researcher template is designed for general empirical research. For battery research, interpret each phase as its electrochemical equivalent:
+
+| Base Phase | Battery Research Equivalent |
+|---|---|
+| Planning | Cell design & test matrix — define chemistry, electrode composition, cell format, cycling protocols |
+| Data Collection | Electrochemical measurements — galvanostatic cycling, CV, EIS, GITT |
+| Implementation | Data processing pipelines — parsing instrument files, equivalent circuit fitting, capacity calculations |
+| Experimentation | Protocol execution — formation cycles, rate capability, long-term cycling, temperature studies |
+| Analysis | Performance evaluation — capacity fade trends, coulombic efficiency, degradation mechanisms, modeling |
+| Documentation | Figures & reporting — voltage profiles, cycling plots, Nyquist plots with proper conventions |
+
+## Electrochemical Characterization Methods
+
+### Galvanostatic Charge/Discharge (GCD)
+- Constant current cycling between voltage limits
+- Primary output: voltage vs. capacity profiles, capacity vs. cycle number
+- Always report: C-rate (and the theoretical capacity used to define it), voltage window, temperature
+- Use CC-CV (constant current-constant voltage) protocol where appropriate and state the cutoff current
+
+### Cyclic Voltammetry (CV)
+- Sweep potential at constant rate, measure current response
+- Identifies redox peaks, reaction reversibility, and kinetics
+- Report: scan rate, voltage window, cycle number shown
+- For multi-rate studies: use Randles-Sevcik analysis for diffusion coefficients
+- Plot current vs. potential (not vs. time)
+
+### Electrochemical Impedance Spectroscopy (EIS)
+- AC perturbation across frequency range (typically 1 MHz to 10 mHz)
+- Nyquist plot (Z_real vs. -Z_imag) and Bode plot (|Z| and phase vs. frequency)
+- Equivalent circuit fitting: state the model used, report chi-squared goodness of fit
+- Common elements: R_s (solution resistance), R_ct (charge transfer), CPE (constant phase element), W (Warburg)
+- Always report: state of charge, temperature, perturbation amplitude (typically 5-10 mV)
+
+### Galvanostatic Intermittent Titration Technique (GITT)
+- Current pulses followed by rest periods to measure equilibrium potential
+- Calculates solid-state diffusion coefficients
+- Report: pulse duration, rest duration, current magnitude, assumptions (e.g., semi-infinite diffusion)
+
+### Rate Capability Testing
+- Cycling at progressively increasing C-rates, then returning to low rate
+- Demonstrates power performance and rate-dependent capacity retention
+- Always include the recovery cycles at low rate to show reversibility
+- Plot capacity vs. C-rate (not just vs. cycle number)
+
+### Differential Capacity Analysis (dQ/dV)
+- Derivative of capacity with respect to voltage
+- Reveals phase transitions, degradation mechanisms, and side reactions
+- Sensitive to subtle changes that voltage profiles may not show
+- Useful for tracking degradation over cycling: peak shifts indicate structural changes
+
+## Data Reporting Standards
+
+### Always Report
+- Active material mass loading (mg/cm2) and electrode composition (e.g., 80:10:10 active:binder:conductive)
+- Electrolyte composition and quantity (or electrolyte-to-capacity ratio, uL/mAh)
+- Cell format (coin cell CR2032, pouch cell, Swagelok, etc.)
+- Voltage window (e.g., 2.5-4.2 V vs. Li/Li+)
+- C-rate definition: state the theoretical capacity value used (e.g., 1C = 170 mAh/g for LFP)
+- Temperature (ambient is insufficient — state the actual value, e.g., 25 +/- 1 deg C)
+- Number of cells tested and error bars (minimum 3 cells for statistical validity)
+- Current collector material and separator type
+
+### Capacity Normalization
+- **Gravimetric capacity** (mAh/g): normalized to active material mass — most common in academic literature
+- **Areal capacity** (mAh/cm2): normalized to electrode area — more relevant for practical cells
+- **Volumetric capacity** (mAh/cm3): normalized to electrode volume — important for space-constrained applications
+- Always state which normalization is used. For practical relevance, report at least gravimetric AND areal capacity.
+- For full cells: report capacity based on the limiting electrode and state which one
+
+### Terminology (IUPAC Convention)
+- For rechargeable batteries, use "positive electrode" and "negative electrode" rather than "cathode" and "anode"
+  (In secondary batteries, cathode/anode swap during charge vs. discharge; positive/negative are unambiguous)
+- Use "specific capacity" (per mass) vs. "capacity" (absolute, in mAh)
+- Use "coulombic efficiency" (not "columbic" or "Coulombic efficiency" — lowercase c is acceptable per IUPAC)
+- "State of charge" (SOC) and "depth of discharge" (DOD) — define the reference points
+
+## Computational Tools
+
+### Battery-Specific Python Libraries
+- **PyBaMM**: Physics-based battery modeling (SPM, DFN, equivalent circuit); open-source, well-documented
+- **impedance.py**: EIS equivalent circuit fitting and analysis
+- **cellpy**: Cycling data processing and analysis; reads various instrument file formats
+- **galvani**: Parse electrochemical data files from Biologic, Gamry, and other potentiostats
+- **pymatgen**: Materials analysis — crystal structure, phase diagrams, electrochemical stability windows
+
+### General Scientific Python
+- **NumPy/SciPy**: Numerical computation, curve fitting, signal processing
+- **pandas**: Tabular data management for cycling records
+- **matplotlib**: Publication-quality electrochemistry plots
+- **scikit-learn**: Machine learning for property prediction, clustering, feature analysis
+
+### Atomistic Simulation (if applicable)
+- **ASE** (Atomic Simulation Environment): Structure manipulation, calculator interface
+- **VASP/Quantum ESPRESSO**: DFT calculations for voltage prediction, migration barriers, electronic structure
+- **LAMMPS**: Molecular dynamics for electrolyte transport, interface studies
+
+### Databases
+- **Materials Project** (materialsproject.org): Computed properties for ~150K materials, including ~5K battery electrodes
+- **AFLOW** (aflowlib.org): High-throughput computed materials data
+- **Battery Data Genome** (batterydata.energy.gov): Experimental cycling datasets
+
+## REPORT.md Structure for Battery Research
+
+When writing REPORT.md, use this structure instead of the default:
+
+1. **Executive Summary**: Key findings — best achieved capacity, cycling stability, rate performance
+2. **Research Question**: The hypothesis or problem being investigated
+3. **Materials and Methods**: Cell chemistry, electrode preparation details, electrolyte, cell format, equipment
+4. **Electrochemical Performance**:
+   - Initial capacity and voltage profiles
+   - Rate capability results
+   - Long-term cycling stability with coulombic efficiency
+5. **Degradation Analysis** (if applicable): Capacity fade mechanisms, impedance evolution, post-mortem analysis
+6. **Computational/Modeling Results** (if applicable): Simulation setup, validation against experimental data, predictions
+7. **Comparison with Literature**: Table comparing key metrics against published results for similar systems
+8. **Discussion**: Interpretation of results, structure-property relationships, practical implications
+9. **Conclusions**: Summary of contributions and recommended next steps
+10. **References**: Full citations for all referenced works
+
+## Quality Checklist
+
+Before finalizing your work, verify:
+
+- [ ] Active material mass loading is stated (mg/cm2)
+- [ ] Electrode composition is fully specified (active:binder:conductive additive ratio)
+- [ ] C-rate is defined with the theoretical capacity value used
+- [ ] Voltage window is explicitly stated with reference electrode
+- [ ] Temperature is reported as an actual measured value
+- [ ] Electrolyte composition and quantity are specified
+- [ ] Coulombic efficiency is plotted alongside capacity vs. cycle number
+- [ ] Error bars are shown (from minimum 3 replicate cells)
+- [ ] Capacity normalization basis is clearly stated
+- [ ] Rate capability includes recovery cycles at low rate
+- [ ] Sufficient cycle count for meaningful trend analysis (not just 10-20 cycles)
+- [ ] EIS data includes equivalent circuit model and fit quality
+- [ ] Comparison table with published literature values is included
+- [ ] All figures have proper axis labels, units, and legends
+
+## Common Pitfalls in Battery Research
+
+1. **Low mass loading**: Loading <1 mg/cm2 inflates rate capability and masks transport limitations. Academic results at low loading often do not translate to practical cells (commercial: 5-20 mg/cm2)
+2. **Excess electrolyte**: Flooding cells with electrolyte masks poor coulombic efficiency and hides electrolyte decomposition. Report the electrolyte-to-capacity ratio (uL/mAh)
+3. **Single-cell reporting**: Reporting results from one cell without error bars hides variability. Battery testing inherently has cell-to-cell variation — always test replicates
+4. **Confusing capacity metrics**: Mixing gravimetric, volumetric, and areal capacity without clear labels. State the normalization basis every time
+5. **Insufficient cycling**: 50-100 cycles may not reveal degradation trends that emerge over 500+ cycles. Long-term stability claims require long-term data
+6. **Half-cell extrapolation**: Half-cell results (vs. Li metal) cannot directly predict full-cell performance due to excess lithium inventory, different failure modes, and reference electrode effects
+7. **Improper EIS interpretation**: Fitting Nyquist data with overly complex equivalent circuits without physical justification. Use the simplest model that fits the data
+8. **Ignoring formation cycles**: Not reporting or standardizing formation protocol. Formation cycles affect SEI quality and all subsequent performance
+9. **Cherry-picking data**: Reporting only the best-performing cell instead of the average across replicates
+10. **Missing coulombic efficiency**: Capacity vs. cycle plots without CE data hide side reactions and irreversible losses. CE is often more revealing than capacity for degradation analysis

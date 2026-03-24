@@ -1,0 +1,975 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2502.07070v1",
+    "title": "Comprehensive Analysis of Thermal Dissipation in Lithium-Ion Battery Packs",
+    "authors": [
+      "Xuguang Zhang",
+      "Hexiang Zhang",
+      "Amjad Almansour",
+      "Mrityunjay Singh",
+      "Hengling Zhu"
+    ],
+    "published": "2025-02-10",
+    "abstract": "Effective thermal management is critical for lithium-ion battery packs' safe and efficient operations, particularly in applications such as drones, where compact designs and varying airflow conditions present unique challenges. This study investigates the thermal performance of a 16-cell lithium-ion battery pack by optimizing cooling airflow configurations and integrating phase change materials (PCMs) for enhanced heat dissipation. Seven geometric configurations were evaluated under airflow spee",
+    "pdf_url": "https://arxiv.org/pdf/2502.07070v1",
+    "categories": [
+      "eess.SY",
+      "hep-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.07238v1",
+    "title": "Coherently Driven Quantum Harmonic Oscillator Battery",
+    "authors": [
+      "Kuldeep Gangwar",
+      "Anirban Pathak"
+    ],
+    "published": "2024-01-14",
+    "abstract": "Quantum harmonic oscillator (QHO) battery models have been studied with significant importance in the recent past because these batteries are experimentally realizable and have high ergotropy and capacity to store more than one quanta of energy. QHO battery models are reinvestigated here to answer a set of fundamental questions: Do such models have any benefit? Is unbounded charging possible? Does the use of a catalyst system enhance the energy transfer to quantum batteries? These questions are ",
+    "pdf_url": "https://arxiv.org/pdf/2401.07238v1",
+    "categories": [
+      "quant-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2002.12866v1",
+    "title": "Lithium abundances in globular clusters",
+    "authors": [
+      "N. Sanna",
+      "E. Franciosini",
+      "E. Pancino",
+      "A. Mucciarelli"
+    ],
+    "published": "2020-02-28",
+    "abstract": "Lithium is created during the Big Bang nucleosynthesis and it is destroyed in stellar interiors at relatively low temperatures. However, it should be preserved in the stellar envelopes of unevolved stars and progressively diluted during mixing processes. In particular, after the first dredge-up along the RGB, lithium should be completely destroyed, but this is not what we observe today in globular clusters. This element allows to test stellar evolutionary models, as well as different types of po",
+    "pdf_url": "https://arxiv.org/pdf/2002.12866v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1801.03813v3",
+    "title": "Energy Harvesting Communications Using Dual Alternating Batteries",
+    "authors": [
+      "Rajshekhar Vishweshwar Bhat",
+      "Mehul Motani",
+      "Chandra R Murthy",
+      "Rahul Vaze"
+    ],
+    "published": "2018-01-11",
+    "abstract": "Practical energy harvesting (EH) based communication systems typically use a battery to temporarily store the harvested energy prior to its use for communication. The batteries can be damaged when they are repeatedly charged (discharged) after being partially discharged (charged), overcharged or deeply discharged. This motivates the cycle constraint which says that a battery must be charged (discharged) only after it is sufficiently discharged (charged). We also assume Bernoulli energy arrivals,",
+    "pdf_url": "https://arxiv.org/pdf/1801.03813v3",
+    "categories": [
+      "cs.IT"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2408.09942v1",
+    "title": "Oxygen redox in battery cathodes: A brief overview",
+    "authors": [
+      "M. Hussein N. Assadi",
+      "Dorian A. H. Hanaor"
+    ],
+    "published": "2024-08-19",
+    "abstract": "The participation of oxygen or other anionic species in redox activities in cathode materials for lithium and sodium-ion battery systems is known to play a role in governing the useful capacity of these batteries. Directly probing anionic redox mechanisms is not possible, rather the computational analysis by density functional theory poses the main approach towards gleaning insights into anionic redox activity and harnessing these effects to maximize capacity in future electrode materials. Here ",
+    "pdf_url": "https://arxiv.org/pdf/2408.09942v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.app-ph",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2303.09456v2",
+    "title": "Modeling and Analysis on Efficiency Degradation of Lithium-ion Batteries",
+    "authors": [
+      "Zihui Lin",
+      "Dagang Li"
+    ],
+    "published": "2023-03-13",
+    "abstract": "Efficiency of Battery Energy Storage Systems (BESSs) is increasingly critical as renewable energy generation becomes more prevalent on the grid. Therefore, it is necessary to study the energy efficiency of lithium-ion batteries, which are typically used in BESSs. The purpose of this study is to propose the State of Efficiency (SOE) as a measure of how efficiently batteries transfer energy, and to analyze what factors affect the SOE of a battery throughout its lifetime. Using NASA's data set, we ",
+    "pdf_url": "https://arxiv.org/pdf/2303.09456v2",
+    "categories": [
+      "eess.SY",
+      "physics.data-an"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2303.07841v3",
+    "title": "Beneficial and detrimental entanglement for quantum battery charging",
+    "authors": [
+      "Ju-Yeon Gyhm",
+      "Uwe R. Fischer"
+    ],
+    "published": "2023-03-14",
+    "abstract": "We establish a general implementation-independent approach to assess the potential advantage of using highly entangled quantum states between the initial and final states of the charging protocol to enhance the maximum charging power of quantum batteries. It is shown that the impact of entanglement on power can be separated from both the global quantum speed limit associated to an optimal choice of driving Hamiltonian and the energy gap of the batteries. We then demonstrate that the quantum stat",
+    "pdf_url": "https://arxiv.org/pdf/2303.07841v3",
+    "categories": [
+      "quant-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2004.07491v1",
+    "title": "Protostellar accretion and the cosmological lithium problem",
+    "authors": [
+      "S. Cassisi",
+      "M. Salaris",
+      "S. Degl'Innocenti",
+      "P. G. Prada Moroni",
+      "E. Tognelli"
+    ],
+    "published": "2020-04-16",
+    "abstract": "The cosmological lithium problem, i.e. the discrepancy between the lithium abundance predicted by the Big Bang Nucleosynthesis and the one observed for the stars of the \"Spite plateau\", is one of the long standing problems of modern astrophysics. A possible astrophysical solution involves lithium burning due to protostellar mass accretion on Spite plateau stars. In present work, for the first time, we investigate with accurate evolutionary computations the impact of accretion on the lithium evol",
+    "pdf_url": "https://arxiv.org/pdf/2004.07491v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.10484v1",
+    "title": "Lithium and proton-capture elements in globular clusters: implications for multiple population scenarios",
+    "authors": [
+      "Valentina D'Orazi",
+      "Raffaele Gratton"
+    ],
+    "published": "2020-06-18",
+    "abstract": "In the multiple population framework, a number of studies have been accomplished in order to explore the behaviour of lithium with proton-capture element abundances (e.g., Na, O, Al) in globular cluster stars. Lithium offers perhaps one of the most severe constraints on the stellar source of internal pollution in these complex systems. Given its vulnerability, we expect that material processed via the hot H-burning, re-cycled in the formation of the subsequent generation(s), is free of Li. Howev",
+    "pdf_url": "https://arxiv.org/pdf/2006.10484v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.21481v1",
+    "title": "Stress-driven whisker formation in lithium metal batteries",
+    "authors": [
+      "Martin Werres",
+      "Dariusz Niedziela",
+      "Arnulf Latz",
+      "Birger Horstmann"
+    ],
+    "published": "2025-03-27",
+    "abstract": "Lithium metal batteries are promising for next-generation high-energy-density batteries, especially when lithium is directly plated on a current collector. However, lithium whiskers can form in the early stages of electroplating. These whiskers lead to low Coulombic efficiency due to isolated lithium formation during stripping. The mechanism of whisker formation is not fully understood, and different mechanisms are proposed in the literature. Herein, we computationally explore a stress-driven ex",
+    "pdf_url": "https://arxiv.org/pdf/2503.21481v1",
+    "categories": [
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2009.02086v1",
+    "title": "The lithium-rotation connection in young stars",
+    "authors": [
+      "J. Bouvier"
+    ],
+    "published": "2020-09-04",
+    "abstract": "Lithium is a sensitive probe to mixing processes operating in stellar interiors. For many years, a connection has been suspected to exist between lithium abundances and stellar rotation, presumably the result of rotationally-induced internal mixing. In recent years, several studies have confirmed and refined this relationship for low-mass young stars. In various star forming regions and young open clusters, rapidly rotating K dwarfs are found to be lithium-rich compared to their more slowly rota",
+    "pdf_url": "https://arxiv.org/pdf/2009.02086v1",
+    "categories": [
+      "astro-ph.SR"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2402.07000v2",
+    "title": "Artificial Intelligence-Enabled Optimization of Battery-Grade Lithium Carbonate Production",
+    "authors": [
+      "S. Shayan Mousavi Masouleh",
+      "Corey A. Sanz",
+      "Ryan P. Jansonius",
+      "Samuel Shi",
+      "Maria J. Gendron Romero"
+    ],
+    "published": "2024-02-10",
+    "abstract": "By 2035, the need for battery-grade lithium is expected to quadruple. About half of this lithium is currently sourced from brines and must be converted from a chloride into lithium carbonate (Li2CO3) through a process called softening. Conventional softening methods using sodium or potassium salts contribute to carbon emissions during reagent mining and battery manufacturing, exacerbating global warming. This study introduces an alternative approach using carbon dioxide (CO2(g)) as the carbonati",
+    "pdf_url": "https://arxiv.org/pdf/2402.07000v2",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1902.04102v2",
+    "title": "Tidal interactions between binary stars drives lithium production in low-mass red giants",
+    "authors": [
+      "Andrew R. Casey",
+      "Anna Y. Q. Ho",
+      "Melissa Ness",
+      "Hans-Walter Rix",
+      "George C. Angelou"
+    ],
+    "published": "2019-02-11",
+    "abstract": "Theoretical models of stellar evolution predict that most of the lithium inside a star is destroyed as the star becomes a red giant. However, observations reveal that about 1% of red giants are peculiarly rich in lithium, often exceeding the amount in the interstellar medium or predicted from the Big Bang. With only about 150 lithium-rich giants discovered in the past four decades, and no distinguishing properties other than lithium enhancement, the origin of lithium-rich giant stars is one of t",
+    "pdf_url": "https://arxiv.org/pdf/1902.04102v2",
+    "categories": [
+      "astro-ph.SR"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2110.13727v1",
+    "title": "Novel Lithium-Sulfur Polymer Battery Operating at Moderate Temperature",
+    "authors": [
+      "Vittorio Marangon",
+      "Daniele Di Lecce",
+      "Luca Minnetti",
+      "Jusef Hassoun"
+    ],
+    "published": "2021-10-26",
+    "abstract": "A safe lithium-sulfur (Li-S) battery employs a composite polymer electrolyte based on a poly(ethylene glycol) dimethyl ether (PEGDME) solid at room temperature. The electrolyte membrane enables a stable and reversible Li-S electrochemical process already at 50\u00b0C, with low resistance at the electrode/electrolyte interphase and fast Li+ transport. The relatively low molecular weight of the PEGDME and the optimal membrane composition in terms of salts and ceramic allow a liquid-like Li-S conversion",
+    "pdf_url": "https://arxiv.org/pdf/2110.13727v1",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2203.09497v2",
+    "title": "Quantum battery with non-Hermitian charging",
+    "authors": [
+      "Tanoy Kanti Konar",
+      "Leela Ganesh Chandra Lakkaraju",
+      "Aditi Sen De"
+    ],
+    "published": "2022-03-17",
+    "abstract": "We propose a design of a quantum battery exploiting the non-Hermitian Hamiltonian as a charger. In particular, starting with the ground or the thermal state of the interacting (non-interacting) Hamiltonian as the battery, the charging of the battery is performed via parity-time (PT)- and rotational-time (RT)-symmetric Hamiltonian to store energy. We report that such a quenching with a non-Hermitian Hamiltonian leads to an enhanced power output compared to a battery with a Hermitian charger. We i",
+    "pdf_url": "https://arxiv.org/pdf/2203.09497v2",
+    "categories": [
+      "quant-ph",
+      "cond-mat.stat-mech",
+      "cond-mat.str-el"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.05141v1",
+    "title": "Predictive Machine Learning Molecular Dynamics of SEI Formation in Concentrated LiTFSI and LiPF6 Electrolytes for Lithium Metal Batteries",
+    "authors": [
+      "Syed Mustafa Shah",
+      "Mohammed Lemaalem",
+      "Anh T. Ngo"
+    ],
+    "published": "2026-02-04",
+    "abstract": "High-energy-density lithium metal batteries require electrolytes that enable fast ion transport and form a stable solid-electrolyte interphase (SEI) to sustain high-rate cycling, a process that remains challenging to capture experimentally. Here, we develop a Deep Potential-based machine learning molecular dynamics (MLMD) framework, trained on extensive ab initio datasets and validated against experimental transport properties, to resolve early-stage SEI nucleation at lithium metal interfaces wi",
+    "pdf_url": "https://arxiv.org/pdf/2602.05141v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2112.12628v2",
+    "title": "Transition between growth of dense and porous films: Theory of dual-layer SEI",
+    "authors": [
+      "Lars von Kolzenberg",
+      "Martin Werres",
+      "Jonas Tetzloff",
+      "Birger Horstmann"
+    ],
+    "published": "2021-12-23",
+    "abstract": "The formation of passivating films is a common aging phenomenon, for example in weathering of rocks, silicon, and metals. In many cases, a dual-layer structure with a dense inner and a porous outer layer emerges. However, the origin of this dual-layer growth is so far not fully understood. In this work, a continuum model is developed, which describes the morphology evolution of the solid-electrolyte interphase (SEI) in lithium-ion batteries. Transport through the SEI and a growth reaction govern",
+    "pdf_url": "https://arxiv.org/pdf/2112.12628v2",
+    "categories": [
+      "physics.comp-ph",
+      "physics.app-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2305.18722v2",
+    "title": "Modeling battery formation: boosted SEI growth, multi-species reactions, and irreversible expansion",
+    "authors": [
+      "Andrew Weng",
+      "Everardo Olide",
+      "Iaroslav Kovalchuk",
+      "Jason B. Siegel",
+      "Anna Stefanopoulou"
+    ],
+    "published": "2023-05-30",
+    "abstract": "This work proposes a semi-empirical model for the SEI growth process during the early stages of lithium-ion battery formation cycling and aging. By combining a full-cell model which tracks half-cell equilibrium potentials, a zero-dimensional model of SEI growth kinetics, and a semi-empirical description of cell thickness expansion, the resulting model replicated experimental trends measured on a 2.5 Ah pouch cell, including the calculated first-cycle efficiency, measured cell thickness changes, ",
+    "pdf_url": "https://arxiv.org/pdf/2305.18722v2",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2410.08847v4",
+    "title": "Unintentional Unalignment: Likelihood Displacement in Direct Preference Optimization",
+    "authors": [
+      "Noam Razin",
+      "Sadhika Malladi",
+      "Adithya Bhaskar",
+      "Danqi Chen",
+      "Sanjeev Arora"
+    ],
+    "published": "2024-10-11",
+    "abstract": "Direct Preference Optimization (DPO) and its variants are increasingly used for aligning language models with human preferences. Although these methods are designed to teach a model to generate preferred responses more frequently relative to dispreferred responses, prior work has observed that the likelihood of preferred responses often decreases during training. The current work sheds light on the causes and implications of this counter-intuitive phenomenon, which we term likelihood displacemen",
+    "pdf_url": "https://arxiv.org/pdf/2410.08847v4",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "stat.ML"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2006.13156v1",
+    "title": "Lithium in the context of Multiple Populations in Globular Clusters",
+    "authors": [
+      "F. D'Antona"
+    ],
+    "published": "2020-06-23",
+    "abstract": "Multiple Populations represent the standard for Globular Clusters (GC): a fraction (10-50%) of their stars have the same elemental abundances of halo stars of similar metallicity (first generation, or 1G), but the other stars (second generation, 2G) are characterised by patterns of light elements abundances which resemble those typical of gas processed by proton-capture reactions at high temperature. Consequently, we should naively expect that Lithium is destroyed in the 2G stars, but instead it",
+    "pdf_url": "https://arxiv.org/pdf/2006.13156v1",
+    "categories": [
+      "astro-ph.GA",
+      "astro-ph.SR"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1210.3672v3",
+    "title": "Theory of SEI Formation in Rechargeable Batteries: Capacity Fade, Accelerated Aging and Lifetime Prediction",
+    "authors": [
+      "Matthew B. Pinson",
+      "Martin Z. Bazant"
+    ],
+    "published": "2012-10-13",
+    "abstract": "Cycle life is critically important in applications of rechargeable batteries, but lifetime prediction is mostly based on empirical trends, rather than mathematical models. In practical lithium-ion batteries, capacity fade occurs over thousands of cycles, limited by slow electrochemical processes, such as the formation of a solid-electrolyte interphase (SEI) in the negative electrode, which compete with reversible lithium intercalation. Focusing on SEI growth as the canonical degradation mechanis",
+    "pdf_url": "https://arxiv.org/pdf/1210.3672v3",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2002.04749v1",
+    "title": "Production of Lithium in Primordial Supernovae",
+    "authors": [
+      "Alexander Heger",
+      "Stan Woosley"
+    ],
+    "published": "2020-02-12",
+    "abstract": "The first generation of stars is quite unique. The absence of metals likely affects their formation, with current models suggesting a much more top-heavy initial mass fraction than what we observe today, and some of their other properties, such as rotation rates and binarity, are largely unknown or constrained by direct observations. But even non-rotation single stars of a given mass will evolve quite differently due to the absence of the metals: the stars will mostly remain much more compact un",
+    "pdf_url": "https://arxiv.org/pdf/2002.04749v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.HE"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1206.6220v1",
+    "title": "Shedding Light on Lithium Evolution: The Globular Cluster Perspective",
+    "authors": [
+      "A. J. Korn"
+    ],
+    "published": "2012-06-27",
+    "abstract": "I shall review what has been learnt during 20 years of lithium observations in stars belonging to metal-poor globular clusters. The focus will be on little evolved main-sequence, turnoff-point (TOP) and subgiant-branch (SGB) stars expected to display Spite-plateau lithium abundances like those found in the majority of field stars of similar metallicities. But is the Spite plateau of globular clusters the same as those of field stars? What effect does, e.g., cluster-internal pollution have on lit",
+    "pdf_url": "https://arxiv.org/pdf/1206.6220v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2004.06606v1",
+    "title": "Lithium in the closest satellite of our Milky Way",
+    "authors": [
+      "G. Cescutti",
+      "P. Molaro",
+      "X. Fu"
+    ],
+    "published": "2020-04-14",
+    "abstract": "Recently, we studied the chemical evolution of lithium in the thin disc of the Milky Way. We found that the best agreement with the observed Li abundances in the thin disc is obtained considering novae as the main source of lithium. We assumed a delay time of ~1 Gyr for nova production and an effective 7Li yield of 1.8($\\pm$0.6)x10$^{-5}$ Msun over the whole nova lifetime. The possibility to check our detailed assumptions on lithium production on other stellar systems, such as the satellites of ",
+    "pdf_url": "https://arxiv.org/pdf/2004.06606v1",
+    "categories": [
+      "astro-ph.SR",
+      "astro-ph.GA"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2212.13890v1",
+    "title": "ECG-Based Electrolyte Prediction: Evaluating Regression and Probabilistic Methods",
+    "authors": [
+      "Philipp Von Bachmann",
+      "Daniel Gedon",
+      "Fredrik K. Gustafsson",
+      "Ant\u00f4nio H. Ribeiro",
+      "Erik Lampa"
+    ],
+    "published": "2022-12-21",
+    "abstract": "Objective: Imbalances of the electrolyte concentration levels in the body can lead to catastrophic consequences, but accurate and accessible measurements could improve patient outcomes. While blood tests provide accurate measurements, they are invasive and the laboratory analysis can be slow or inaccessible. In contrast, an electrocardiogram (ECG) is a widely adopted tool which is quick and simple to acquire. However, the problem of estimating continuous electrolyte concentrations directly from ",
+    "pdf_url": "https://arxiv.org/pdf/2212.13890v1",
+    "categories": [
+      "eess.SP",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2308.13875v1",
+    "title": "Performance of Genetic Algorithms in the Context of Software Model Refactoring",
+    "authors": [
+      "Vittorio Cortellessa",
+      "Daniele Di Pompeo",
+      "Michele Tucci"
+    ],
+    "published": "2023-08-26",
+    "abstract": "Software systems continuously evolve due to new functionalities, requirements, or maintenance activities. In the context of software evolution, software refactoring has gained a strategic relevance. The space of possible software refactoring is usually very large, as it is given by the combinations of different refactoring actions that can produce software system alternatives. Multi-objective algorithms have shown the ability to discover alternatives by pursuing different objectives simultaneous",
+    "pdf_url": "https://arxiv.org/pdf/2308.13875v1",
+    "categories": [
+      "cs.SE",
+      "cs.PF"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2112.13671v2",
+    "title": "A four parameter model for the solid-electrolyte interphase to predict battery aging during operation",
+    "authors": [
+      "Lars von Kolzenberg",
+      "Jochen Stadler",
+      "Johannes Fath",
+      "Madeleine Ecker",
+      "Birger Horstmann"
+    ],
+    "published": "2021-12-23",
+    "abstract": "Accurately predicting aging of lithium-ion batteries would help to prolong their lifespan, but remains a challenge owing to the complexity and interrelation of different aging mechanisms. As a result, aging prediction often relies on empirical or data-driven approaches, which obtain their performance from analyzing large datasets. However, these datasets are expensive to generate and the models are agnostic of the underlying physics and thus difficult to extrapolate to new conditions. In this ar",
+    "pdf_url": "https://arxiv.org/pdf/2112.13671v2",
+    "categories": [
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1705.10657v1",
+    "title": "A Fibrous Solid Electrolyte for Lithium-ion Batteries",
+    "authors": [
+      "Salim Erol"
+    ],
+    "published": "2017-05-27",
+    "abstract": "The new methodology proposed in this work uses oxide filaments/fibers instead of a dense thin film electrolyte, allowing: (i) straightforward fabrication without the use of costly thin film production techniques, (ii) minor changes in the existing Li- ion battery production lines, and (iii) better mechanical stability and electrochemical performance. Li7La3Zr2O12 (LLZO) fibers as an electrolyte were prepared using the electrospinning technique. The crystallographic phase and morphology of the pr",
+    "pdf_url": "https://arxiv.org/pdf/1705.10657v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2307.03811v3",
+    "title": "Formulation Graphs for Mapping Structure-Composition of Battery Electrolytes to Device Performance",
+    "authors": [
+      "Vidushi Sharma",
+      "Maxwell Giammona",
+      "Dmitry Zubarev",
+      "Andy Tek",
+      "Khanh Nugyuen"
+    ],
+    "published": "2023-07-07",
+    "abstract": "Advanced computational methods are being actively sought for addressing the challenges associated with discovery and development of new combinatorial material such as formulations. A widely adopted approach involves domain informed high-throughput screening of individual components that can be combined into a formulation. This manages to accelerate the discovery of new compounds for a target application but still leave the process of identifying the right 'formulation' from the shortlisted chemi",
+    "pdf_url": "https://arxiv.org/pdf/2307.03811v3",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.dis-nn",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2001.09938v1",
+    "title": "Autonomous discovery of battery electrolytes with robotic experimentation and machine-learning",
+    "authors": [
+      "Adarsh Dave",
+      "Jared Mitchell",
+      "Kirthevasan Kandasamy",
+      "Sven Burke",
+      "Biswajit Paria"
+    ],
+    "published": "2019-10-22",
+    "abstract": "Innovations in batteries take years to formulate and commercialize, requiring extensive experimentation during the design and optimization phases. We approached the design and selection of a battery electrolyte through a black-box optimization algorithm directly integrated into a robotic test-stand. We report here the discovery of a novel battery electrolyte by this experiment completely guided by the machine-learning software without human intervention. Motivated by the recent trend toward supe",
+    "pdf_url": "https://arxiv.org/pdf/2001.09938v1",
+    "categories": [
+      "physics.app-ph",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2203.09269v1",
+    "title": "Quasi-solid-state electrolyte for ultra-high safety and cycle stability battery",
+    "authors": [
+      "Yuewang Yang",
+      "Sijing Liu"
+    ],
+    "published": "2022-03-17",
+    "abstract": "All-solid-state lithium batteries (ASSLB) have been regarded as the most promising candidate to achieve the next generation energy storage with high energy and high safety. However, some bottlenecks, including high interfacial resistance, bad electrochemical stability, and low conductivity, have hindered its further development. Here, we developed a Pyr13FSI/LiFSI-based gel electrolyte and used it in the LFP/LTO full battery system to achieve a lithium-ion battery with high safety and cycle stab",
+    "pdf_url": "https://arxiv.org/pdf/2203.09269v1",
+    "categories": [
+      "hep-ex",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1710.09221v1",
+    "title": "Molecular simulations of electrolyte structure and dynamics in lithium-sulfur battery solvents",
+    "authors": [
+      "Chanbum Park",
+      "Matej Kandu\u010d",
+      "Richard Chudoba",
+      "Arne Ronneburg",
+      "Sebastian Risse"
+    ],
+    "published": "2017-10-25",
+    "abstract": "The performance of modern lithium-sulfur (Li/S) battery systems critically depends on the electrolyte and solvent compositions. For fundamental molecular insights and rational guidance of experimental developments, efficient and sufficiently accurate molecular simulations are thus in urgent need. Here, we construct a molecular dynamics (MD) computer simulation model of representative state-of-the art electrolyte-solvent systems for Li/S batteries constituted by lithium-bis(trifluoromethane)sulfo",
+    "pdf_url": "https://arxiv.org/pdf/1710.09221v1",
+    "categories": [
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2203.05218v1",
+    "title": "Understanding Electrolyte Filling of Lithium-Ion Battery Electrodes on the Pore Scale Using the Lattice Boltzmann Method",
+    "authors": [
+      "Martin P. Lautenschlaeger",
+      "Benedikt Prifling",
+      "Benjamin Kellers",
+      "Julius Weinmiller",
+      "Timo Danner"
+    ],
+    "published": "2022-03-10",
+    "abstract": "Electrolyte filling is a time-critical step during battery manufacturing that also affects the battery performance. The underlying physical phenomena during filling mainly occur on the pore scale and are hard to study experimentally. In this paper, a computational approach, i.e.\\ the lattice Boltzmann method, is used to study the filling process and corresponding pore-scale phenomena in 3D lithium-ion battery cathodes. The electrolyte flow through the nanoporous binder is simulated using a homog",
+    "pdf_url": "https://arxiv.org/pdf/2203.05218v1",
+    "categories": [
+      "physics.comp-ph",
+      "cond-mat.mes-hall",
+      "physics.flu-dyn"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.02267v1",
+    "title": "Electrochemical Removal of HF from Carbonate-based $LiPF_6$-containing Li-ion Battery Electrolytes",
+    "authors": [
+      "Xiaokun Ge",
+      "Marten Huck",
+      "Andreas Kuhlmann",
+      "Michael Tiemann",
+      "Christian Weinberger"
+    ],
+    "published": "2024-01-04",
+    "abstract": "Due to the hydrolytic instability of $LiPF_6$ in carbonate-based solvents, HF is a typical impurity in Li-ion battery electrolytes. HF significantly influences the performance of Li-ion batteries, for example by impacting the formation of the solid electrolyte interphase at the anode and by affecting transition metal dissolution at the cathode. Additionally, HF complicates studying fundamental interfacial electrochemistry of Li-ion battery electrolytes, such as direct anion reduction, because it",
+    "pdf_url": "https://arxiv.org/pdf/2401.02267v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1503.07925v1",
+    "title": "Enhancing electrochemical intermediate solvation through electrolyte anion selection to increase nonaqueous Li-O$_2$ battery capacity",
+    "authors": [
+      "Colin M. Burke",
+      "Vikram Pande",
+      "Abhishek Khetan",
+      "Venkatasubramanian Viswanathan",
+      "Bryan D. McCloskey"
+    ],
+    "published": "2015-03-26",
+    "abstract": "Among the 'beyond Li-ion' battery chemistries, nonaqueous Li-O$_2$ batteries have the highest theoretical specific energy and as a result have attracted significant research attention over the past decade. A critical scientific challenge facing nonaqueous Li-O$_2$ batteries is the electronically insulating nature of the primary discharge product, lithium peroxide, which passivates the battery cathode as it is formed, leading to low ultimate cell capacities. Recently, strategies to enhance solubi",
+    "pdf_url": "https://arxiv.org/pdf/1503.07925v1",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2010.16256v2",
+    "title": "Interfacial Effects on Solid Electrolyte Interphase in Lithium-ion Batteries",
+    "authors": [
+      "Zeeshan Ahmad",
+      "Victor Venturi",
+      "Hasnain Hafiz",
+      "Venkatasubramanian Viswanathan"
+    ],
+    "published": "2020-10-27",
+    "abstract": "The existence of passivating layers at the interfaces is a major factor enabling modern lithium-ion (Li-ion) batteries. Their properties determine the cycle life, performance, and safety of batteries. A special case is the solid electrolyte interphase (SEI), a heterogeneous multi-component film formed due to the instability and subsequent decomposition of the electrolyte at the surface of the anode. The SEI acts as a passivating layer that hinders further electrolyte disintegration, which is det",
+    "pdf_url": "https://arxiv.org/pdf/2010.16256v2",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2112.06231v2",
+    "title": "Effect of Succinonitrile on Ion Transport in PEO-based Lithium Ion Battery Electrolytes",
+    "authors": [
+      "Sipra Mohapatra",
+      "Shubham Sharma",
+      "Aman Sriperumbuduru",
+      "Srinivasa Rao Varanasi",
+      "Santosh Mogurampelly"
+    ],
+    "published": "2021-12-12",
+    "abstract": "We report the ion transport mechanisms in succinonitrile (SN) loaded solid polymer electrolytes containing polyethylene oxide (PEO) and dissolved lithium bis(trifluoromethane)sulphonamide (LiTFSI) salt using molecular dynamics simulations. We investigated the effect of temperature and loading of SN on ion transport and relaxation phenomenon in PEO-LiTFSI electrolytes. It is observed that SN increases the ionic diffusivities in PEO-based solid polymer electrolytes and makes them suitable for batt",
+    "pdf_url": "https://arxiv.org/pdf/2112.06231v2",
+    "categories": [
+      "cond-mat.soft",
+      "cond-mat.mtrl-sci",
+      "cond-mat.stat-mech"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1311.6490v1",
+    "title": "Nanoscale Imaging of Lithium Ion Distribution During In Situ Operation of Battery Electrode and Electrolyte",
+    "authors": [
+      "Megan E. Holtz",
+      "Yingchao Yu",
+      "Deniz Gunceler",
+      "Jie Gao",
+      "Ravishankar Sundararaman"
+    ],
+    "published": "2013-11-25",
+    "abstract": "A major challenge in the development of new battery materials is understanding their fundamental mechanisms of operation and degradation. Their microscopically inhomogeneous nature calls for characterization tools that provide operando and localized information from individual grains and particles. Here we describe an approach that images the nanoscale distribution of ions during electrochemical charging of a battery in a transmission electron microscope liquid flow cell. We use valence energy-l",
+    "pdf_url": "https://arxiv.org/pdf/1311.6490v1",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1304.5976v1",
+    "title": "Electronic Structure Modeling of Electrochemical Reactions at Electrode/Electrolyte Interfaces in Lithium Ion Batteries",
+    "authors": [
+      "Kevin Leung"
+    ],
+    "published": "2013-04-22",
+    "abstract": "We review recent ab initio molecular dynamics studies of electrode/electrolyte interfaces in lithium ion batteries. Our goals are to introduce experimentalists to simulation techniques applicable to models which are arguably most faithful to experimental conditions so far, and to emphasize to theorists that the inherently interdisciplinary nature of this subject requires bridging the gap between solid and liquid state perspectives. We consider liquid ethylene carbonate (EC) decomposition on lith",
+    "pdf_url": "https://arxiv.org/pdf/1304.5976v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.05078v2",
+    "title": "A Single Particle Model with Electrolyte and Side Reactions for degradation of lithium-ion batteries",
+    "authors": [
+      "Ferran Brosa Planella",
+      "W. Dhammika Widanage"
+    ],
+    "published": "2022-06-10",
+    "abstract": "Battery degradation, which is the reduction of performance over time, is one of the main roadblocks to the wide deployment of lithium-ion batteries. Physics-based models, such as those based on the Doyle-Fuller-Newman model, are invaluable tools to understand and predict such phenomena. However, these models are often too complex for practical applications, so reduced models are needed. In this article we introduce the Single Particle Model with electrolyte and Side Reactions, a reduced model wi",
+    "pdf_url": "https://arxiv.org/pdf/2206.05078v2",
+    "categories": [
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2202.04373v1",
+    "title": "Glyme-based electrolytes: suitable solutions for next-generation lithium batteries",
+    "authors": [
+      "Daniele Di Lecce",
+      "Vittorio Marangon",
+      "Hun-Gi Jung",
+      "Yoichi Tominaga",
+      "Steve Greenbaum"
+    ],
+    "published": "2022-02-09",
+    "abstract": "The concept of green in a battery involves the chemical nature of electrodes and electrolytes as well as the economic sustainability of the cell. Although these aspects are typically discussed separately, they are deeply interconnected: indeed, a new electrolyte can allow the use of different cathodes with higher energy, lower cost or more pronounced environmental compatibility. We focus on alternative class of electrolyte solutions for lithium batteries formed by dissolving LiX salts in glyme s",
+    "pdf_url": "https://arxiv.org/pdf/2202.04373v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1604.04200v1",
+    "title": "Stable artificial solid electrolyte interfaces for lithium batteries",
+    "authors": [
+      "Lin Ma",
+      "Mun Sek Kim",
+      "Lynden A. Archer"
+    ],
+    "published": "2016-04-14",
+    "abstract": "A rechargeable lithium metal battery (LMB), which uses metallic lithium at the anode, is among the most promising technologies for next generation electrochemical energy storage devices due to its high energy density, particularly when Li is paired with energetic conversion cathodes such as sulfur, oxygen/air, and carbon dioxide. Practical LMBs in any of these designs remain elusive due to multiple stubborn problems, including parasitic reactions of Li metal with liquid electrolytes, unstable/de",
+    "pdf_url": "https://arxiv.org/pdf/1604.04200v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1803.04317v1",
+    "title": "A Brief Review of Current Lithium Ion Battery Technology and Potential Solid State Battery Technologies",
+    "authors": [
+      "Andrew Ulvestad"
+    ],
+    "published": "2018-03-12",
+    "abstract": "Solid state battery technology has recently garnered considerable interest from companies including Toyota, BMW, Dyson, and others. The primary driver behind the commercialization of solid state batteries (SSBs) is to enable the use of lithium metal as the anode, as opposed to the currently used carbon anode, which would result in ~20% energy density improvement. However, no reported solid state battery to date meets all of the performance metrics of state of the art liquid electrolyte lithium i",
+    "pdf_url": "https://arxiv.org/pdf/1803.04317v1",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2107.04446v1",
+    "title": "Lithium-Metal Batteries Using Sustainable Electrolyte Media and Various Cathode Chemistries",
+    "authors": [
+      "Vittorio Marangon",
+      "Luca Minnetti",
+      "Matteo Adami",
+      "Alberto Barlini",
+      "Jusef Hassoun"
+    ],
+    "published": "2021-07-09",
+    "abstract": "Lithium-metal batteries employing concentrated glyme-based electrolytes and different cathode chemistries are herein evaluated in view of a safe use of the highly energetic alkali-metal anode. Indeed, diethylene-glycol dimethyl-ether (DEGDME) and triethylene-glycol dimethyl-ether (TREGDME) dissolving lithium bis(trifluoromethanesulfonyl)imide (LiTFSI) and lithium nitrate (LiNO3) in concentration approaching the solvents saturation limit are used in lithium batteries employing either a conversion",
+    "pdf_url": "https://arxiv.org/pdf/2107.04446v1",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.05151v1",
+    "title": "Disorder-induced enhancement of lithium-ion transport in solid-state electrolytes",
+    "authors": [
+      "Zhimin Chen",
+      "Tao Du",
+      "N. M. Anoop Krishnan",
+      "Yuanzheng Yue",
+      "Morten M. Smedskjaer"
+    ],
+    "published": "2024-01-10",
+    "abstract": "Enhancing the ion conduction in solid electrolytes is critically important for the development of high-performance all-solid-state lithium-ion batteries (LIBs). Lithium thiophosphates are among the most promising solid electrolytes, as they exhibit superionic conductivity at room temperature. However, the lack of comprehensive understanding regarding their ion conduction mechanism, especially the effect of structural disorder on ionic conductivity, is a long-standing problem that limits further ",
+    "pdf_url": "https://arxiv.org/pdf/2401.05151v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2201.02891v1",
+    "title": "\"Knees\" in lithium-ion battery aging trajectories",
+    "authors": [
+      "Peter M. Attia",
+      "Alexander Bills",
+      "Ferran Brosa Planella",
+      "Philipp Dechent",
+      "Gon\u00e7alo dos Reis"
+    ],
+    "published": "2022-01-08",
+    "abstract": "Lithium-ion batteries can last many years but sometimes exhibit rapid, nonlinear degradation that severely limits battery lifetime. In this work, we review prior work on \"knees\" in lithium-ion battery aging trajectories. We first review definitions for knees and three classes of \"internal state trajectories\" (termed snowball, hidden, and threshold trajectories) that can cause a knee. We then discuss six knee \"pathways\", including lithium plating, electrode saturation, resistance growth, electrol",
+    "pdf_url": "https://arxiv.org/pdf/2201.02891v1",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2601.20751v1",
+    "title": "Morphological Stability of Metal Anodes: Roles of Solid Electrolyte Interphases (SEIs) and Desolvation Kinetics",
+    "authors": [
+      "Jin Zhang",
+      "Peter W. Voorhees"
+    ],
+    "published": "2026-01-28",
+    "abstract": "Achieving stable lithium metal anodes requires control over the solid-electrolyte interphase (SEI) and desolvation kinetics. Here, we develop a unified theoretical framework integrating ion transport, desolvation, charge transfer, and SEI breakdown to predict morphological instabilities during electrodeposition. Using linear stability analysis, we identify six dimensionless parameters that govern the onset and evolution of instabilities. We show that SEI transport and desolvation rate effectivel",
+    "pdf_url": "https://arxiv.org/pdf/2601.20751v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1206.7008v1",
+    "title": "Lithium abundances in extremely metal-poor turn-off stars",
+    "authors": [
+      "L. Sbordone",
+      "P. Bonifacio",
+      "E. Caffau"
+    ],
+    "published": "2012-06-29",
+    "abstract": "We discuss the current status of the sample of Lithium abundances in extremely metal poor (EMP) turn-off (TO) stars collected by our group, and compare it with the available literature results. In the last years, evidences have accumulated of a progressive disruption of the Spite plateau in stars of extremely low metallicity. What appears to be a flat, thin plateau above [Fe/H]\\sim-2.8 turns, at lower metallicities, into a broader distribution for which the plateau level constitutes the upper li",
+    "pdf_url": "https://arxiv.org/pdf/1206.7008v1",
+    "categories": [
+      "astro-ph.SR"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2412.19376v1",
+    "title": "Guidelines for Correlative Imaging and Analysis of Reactive Lithium Metal Battery Materials",
+    "authors": [
+      "Shuang Bai",
+      "Zhao Liu",
+      "Diyi Cheng",
+      "Bingyu Lu",
+      "Nestor J. Zaluzec"
+    ],
+    "published": "2024-12-26",
+    "abstract": "To unlock the full potential of lithium metal batteries, a deep understanding of lithium metal reactivity and its solid electrolyte interphase is essential. Correlative imaging, combining focused ion beam and electron microscopy offers a powerful approach for multi-scale characterization. However, the extreme reactivity of lithium metal and its SEI presents challenges in investigating deposition and stripping mechanisms. In this work, we systematically evaluated the storage stability of lithium ",
+    "pdf_url": "https://arxiv.org/pdf/2412.19376v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1605.07142v1",
+    "title": "Stability of Solid Electrolyte Interphase Components on Lithium Metal and Reactive Anode Material Surfaces",
+    "authors": [
+      "Kevin Leung",
+      "Fernando Soto",
+      "Kie Hankins",
+      "Perla B. Balbuena",
+      "Katharine L. Harrison"
+    ],
+    "published": "2016-05-23",
+    "abstract": "Lithium ion batteries (LIB) can feature reactive anodes that operate at low potentials, such as lithium metal or silicon, passivated by solid electrolyte interphase (SEI) films. SEI is known to evolve over time as cycling proceeds. In this modeling work, we focus on the stability of two main SEI components, lithium carbonate (Li2CO3) and lithium ethylene dicarbonate (LEDC). Both components are electrochemically stable but thermodynamically unstable near the equilibrium Li+/Li(s) potential. Inter",
+    "pdf_url": "https://arxiv.org/pdf/1605.07142v1",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/astro-ph/0509653v1",
+    "title": "New Keck Observations of Lithium in Very Metal-poor Stars",
+    "authors": [
+      "Ann Merchant Boesgaard",
+      "Megan C. Novicki",
+      "Alex Stephens"
+    ],
+    "published": "2005-09-22",
+    "abstract": "Lithium abundances have been determined in more than 100 metal-poor halo stars both in the field and in clusters. From these data we find trends of Li with both temperature and metallicity and a real dispersion in Li abundances in the Spite Li plateau. We attribute this dispersion primarily to Li depletion (presumably due to extra mixing induced by stellar rotation) and to Galactic chemical evolution. We derive a primordial Li of 2.44 $\\pm$0.18 for A(Li)$_p$ = log N(Li/H) + 12.00. This agrees wi",
+    "pdf_url": "https://arxiv.org/pdf/astro-ph/0509653v1",
+    "categories": [
+      "astro-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.21530v2",
+    "title": "Data Contamination Report from the 2024 CONDA Shared Task",
+    "authors": [
+      "Oscar Sainz",
+      "Iker Garc\u00eda-Ferrero",
+      "Alon Jacovi",
+      "Jon Ander Campos",
+      "Yanai Elazar"
+    ],
+    "published": "2024-07-31",
+    "abstract": "The 1st Workshop on Data Contamination (CONDA 2024) focuses on all relevant aspects of data contamination in natural language processing, where data contamination is understood as situations where evaluation data is included in pre-training corpora used to train large scale models, compromising evaluation results. The workshop fostered a shared task to collect evidence on data contamination in current available datasets and models. The goal of the shared task and associated database is to assist",
+    "pdf_url": "https://arxiv.org/pdf/2407.21530v2",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.08716v1",
+    "title": "A Taxonomy for Data Contamination in Large Language Models",
+    "authors": [
+      "Medha Palavalli",
+      "Amanda Bertsch",
+      "Matthew R. Gormley"
+    ],
+    "published": "2024-07-11",
+    "abstract": "Large language models pretrained on extensive web corpora demonstrate remarkable performance across a wide range of downstream tasks. However, a growing concern is data contamination, where evaluation datasets may be contained in the pretraining corpus, inflating model performance. Decontamination, the process of detecting and removing such data, is a potential solution; yet these contaminants may originate from altered versions of the test set, evading detection during decontamination. How diff",
+    "pdf_url": "https://arxiv.org/pdf/2407.08716v1",
+    "categories": [
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.21017v1",
+    "title": "Lithiation Analysis of Metal Components for Li-Ion Battery using Ion Beams",
+    "authors": [
+      "Arturo Galindo",
+      "Neubi Xavier",
+      "Noelia Maldonado",
+      "Jes\u00fas D\u00edaz-S\u00e1nchez",
+      "Carmen Morant"
+    ],
+    "published": "2025-08-28",
+    "abstract": "Metal components are extensively used as current collectors, anodes, and interlayers in lithium-ion batteries. Integrating these functions into one component enhances the cell energy density and simplifies its design. However, this multifunctional component must meet stringent requirements, including high and reversible Li storage capacity, rapid lithiation/delithiation kinetics, mechanical stability, and safety. Six single-atom metals (Mg, Zn, Al, Ag, Sn and Cu) are screened for lithiation beha",
+    "pdf_url": "https://arxiv.org/pdf/2508.21017v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.03203v3",
+    "title": "No Memorization, No Detection: Output Distribution-Based Contamination Detection in Small Language Models",
+    "authors": [
+      "Omer Sela"
+    ],
+    "published": "2026-03-03",
+    "abstract": "CDD, or Contamination Detection via output Distribution, identifies data contamination by measuring the peakedness of a model's sampled outputs. We study the conditions under which this approach succeeds and fails on small language models ranging from 70M to 410M parameters. Using controlled contamination experiments on GSM8K, HumanEval, and MATH, we find that CDD's effectiveness depends critically on whether fine-tuning produces verbatim memorization. In the majority of conditions we test, CDD ",
+    "pdf_url": "https://arxiv.org/pdf/2603.03203v3",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2211.04977v2",
+    "title": "Design of battery materials via defects and doping",
+    "authors": [
+      "Khang Hoang"
+    ],
+    "published": "2022-11-09",
+    "abstract": "This chapter illustrates the use of defect physics as a conceptual and theoretical framework for understanding and designing battery materials. It starts with a methodology for first-principles studies of defects in complex transition-metal oxides. The chapter then considers defects that are activated in a cathode material during synthesis, during measurements, and during battery use. Through these cases, it discusses possible defect landscapes in the material and their implications, guidelines ",
+    "pdf_url": "https://arxiv.org/pdf/2211.04977v2",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2208.12291v1",
+    "title": "The Effect of Frequency Droop Damping on System Parameters and Battery Sizing During Load Change Condition",
+    "authors": [
+      "Mohammed F. Allehyani",
+      "Mohamed Abuagreb",
+      "Brian K. Johnson"
+    ],
+    "published": "2022-08-25",
+    "abstract": "Inverter-based resources (IBR) have been widely studied for their advantages on the current power systems. This increase in the penetration of renewable energy has raised some concerns about the stability of the existing grid. Historically, power systems are dominated by synchronous generators that can easily react to system instability due to high inertia and damping characteristics. However, with IBR, the control of the inverter plays a crucial role in contributing to the system stability and ",
+    "pdf_url": "https://arxiv.org/pdf/2208.12291v1",
+    "categories": [
+      "eess.SY"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.09259v2",
+    "title": "Detecting Data Contamination from Reinforcement Learning Post-training for Large Language Models",
+    "authors": [
+      "Yongding Tao",
+      "Tian Wang",
+      "Yihong Dong",
+      "Huanyu Liu",
+      "Kechi Zhang"
+    ],
+    "published": "2025-10-10",
+    "abstract": "Data contamination poses a significant threat to the reliable evaluation of Large Language Models (LLMs). This issue arises when benchmark samples may inadvertently appear in training sets, compromising the validity of reported performance. While detection methods have been developed for the pre-training and Supervised Fine-Tuning stages, a critical research gap exists for the increasingly significant phase of Reinforcement Learning (RL) post-training. As RL post-training becomes pivotal for adv",
+    "pdf_url": "https://arxiv.org/pdf/2510.09259v2",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/1805.03056v1",
+    "title": "Mechanistic Insights into the Challenges of Cycling a Non-aqueous Na-O2 Battery",
+    "authors": [
+      "Tao Liu",
+      "Gunwoo Kim",
+      "Mike T. L. Casford",
+      "Clare P. Grey"
+    ],
+    "published": "2018-05-08",
+    "abstract": "Superoxide-based non-aqueous metal oxygen batteries have received considerable research attention, as they exhibit high energy densities and round-trip efficiencies. The cycling performance, however, is still poor. Here we study the cycling characteristic of a Na-O2 battery using solid-state nuclear magnetic resonance, Raman spectroscopy and scanning electron microscopy. We found that the poor cycling performance is primarily caused by the considerable side reactions stemming from the chemical a",
+    "pdf_url": "https://arxiv.org/pdf/1805.03056v1",
+    "categories": [
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "id": "http://arxiv.org/abs/2109.07137v1",
+    "title": "Optimal Cycling of a Heterogenous Battery Bank via Reinforcement Learning",
+    "authors": [
+      "Vivek Deulkar",
+      "Jayakrishnan Nair"
+    ],
+    "published": "2021-09-15",
+    "abstract": "We consider the problem of optimal charging/discharging of a bank of heterogenous battery units, driven by stochastic electricity generation and demand processes. The batteries in the battery bank may differ with respect to their capacities, ramp constraints, losses, as well as cycling costs. The goal is to minimize the degradation costs associated with battery cycling in the long run; this is posed formally as a Markov decision process. We propose a linear function approximation based Q-learnin",
+    "pdf_url": "https://arxiv.org/pdf/2109.07137v1",
+    "categories": [
+      "cs.LG"
+    ]
+  }
+]

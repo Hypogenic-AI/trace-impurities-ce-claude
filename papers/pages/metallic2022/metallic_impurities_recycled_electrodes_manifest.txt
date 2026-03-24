@@ -1,0 +1,8 @@
+PDF: papers/metallic_impurities_recycled_electrodes.pdf
+Total pages: 11
+Pages per chunk: 5
+
+Chunks:
+  metallic_impurities_recycled_electrodes_chunk_001.pdf: pages 1-5
+  metallic_impurities_recycled_electrodes_chunk_002.pdf: pages 6-10
+  metallic_impurities_recycled_electrodes_chunk_003.pdf: page 11
