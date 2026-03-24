@@ -1,0 +1,27 @@
+idea:
+  title: 'Decoding the Role of Trace Impurities: Systematic Study of Unintentional
+    Dopants on CE Using Ultra-Pure and Deliberately Doped Systems'
+  domain: battery
+  hypothesis: 'Certain trace elements or compounds, often considered contaminants,
+    may catalyze favorable SEI formation or lithium kinetics, and their controlled
+    introduction could improve Coulombic Efficiency.
+
+    '
+  background:
+    description: "Even tiny amounts of \u201Cdirt\u201D or leftover chemicals in batteries\
+      \ might help or hurt lithium efficiency\u2014let\u2019s test pure materials\
+      \ versus ones with controlled impurities to see if any \u201Chappy accidents\u201D\
+      \ can be engineered on purpose.\n"
+    papers:
+    - description: '"Low-Cost Silicon from Natural Sand with Tunable Oxygen Content
+        and Its Effects on the Electrochemical Properties of Lithium-Ion Battery Anodes."
+        Zhenyu Lin, Peng Sun, Cheng Zhou, and Zhiwei Fang (2024). ACS Omega.'
+  metadata:
+    author: Haokun Liu
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/nZOLPiFIarpnfnmcrCap
+    idea_id: decoding_the_role_of_trace_imp_20260324_175942_5b69807d
+    created_at: '2026-03-24T17:59:42.964354'
+    status: submitted
+    github_repo_name: trace-impurities-ce-claude
+    github_repo_url: https://github.com/Hypogenic-AI/trace-impurities-ce-claude
